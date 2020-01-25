@@ -16,6 +16,12 @@
 var/global/list/datum/stack_recipe/metal_recipes = list(
 	new /datum/stack_recipe("stool", /obj/structure/chair/stool, one_per_turf = 1, on_floor = 1),
 	new /datum/stack_recipe("chair", /obj/structure/chair, one_per_turf = 1, on_floor = 1),
+	new /datum/stack_recipe_list("retro chairs", list(
+		new /datum/stack_recipe("orange chair", /obj/structure/chair/orange,  one_per_turf = 1, on_floor = 1),
+		new /datum/stack_recipe("pink chair", /obj/structure/chair/pink,  one_per_turf = 1, on_floor = 1),
+		new /datum/stack_recipe("yellow chair", /obj/structure/chair/yellow,  one_per_turf = 1, on_floor = 1),
+		new /datum/stack_recipe("blue chair", /obj/structure/chair/blue,  one_per_turf = 1, on_floor = 1),
+	)),
 	new /datum/stack_recipe("shuttle seat", /obj/structure/chair/comfy/shuttle, 2, one_per_turf = 1, on_floor = 1),
 	new /datum/stack_recipe("sofa (middle)", /obj/structure/chair/sofa, one_per_turf = 1, on_floor = 1),
 	new /datum/stack_recipe("sofa (left)", /obj/structure/chair/sofa/left, one_per_turf = 1, on_floor = 1),
