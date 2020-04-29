@@ -1,4 +1,4 @@
-var/datum/announcement/minor/captain_announcement = new(do_newscast = 0)
+GLOBAL_DATUM_INIT(captain_announcement, /datum/announcement/minor, new(do_newscast = 0)) // Why the hell are captain announcements minor
 /datum/job/captain
 	title = "Captain"
 	flag = JOB_CAPTAIN
@@ -23,7 +23,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 0)
 
 /datum/job/captain/announce(mob/living/carbon/human/H)
 	. = ..()
-	captain_announcement.Announce("All hands, Captain [H.real_name] on deck!")
+	GLOB.captain_announcement.Announce("All hands, Captain [H.real_name] on deck!")
 
 /datum/outfit/job/captain
 	name = "Captain"
@@ -72,12 +72,12 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 0)
 	access = list(ACCESS_SEC_DOORS, ACCESS_COURT, ACCESS_CHANGE_IDS, ACCESS_EVA, ACCESS_HEADS,
 			            ACCESS_ALL_PERSONAL_LOCKERS, ACCESS_MAINT_TUNNELS, ACCESS_BAR, ACCESS_JANITOR,
 			            ACCESS_CREMATORIUM, ACCESS_KITCHEN, ACCESS_CARGO, ACCESS_CARGO_BOT, ACCESS_MAILSORTING, ACCESS_QM, ACCESS_HYDROPONICS, ACCESS_LAWYER,
-			            ACCESS_THEATRE, ACCESS_CHAPEL_OFFICE, ACCESS_LIBRARY, ACCESS_RESEARCH, ACCESS_MINING, ACCESS_HEADS_VAULT, ACCESS_MINING_STATION,
+			            ACCESS_THEATRE, ACCESS_CHAPEL_OFFICE, ACCESS_LIBRARY, ACCESS_MINING, ACCESS_HEADS_VAULT, ACCESS_MINING_STATION,
 			            ACCESS_CLOWN, ACCESS_MIME, ACCESS_HOP, ACCESS_RC_ANNOUNCE, ACCESS_KEYCARD_AUTH, ACCESS_GATEWAY, ACCESS_WEAPONS, ACCESS_MINERAL_STOREROOM)
 	minimal_access = list(ACCESS_SEC_DOORS, ACCESS_COURT, ACCESS_CHANGE_IDS, ACCESS_EVA, ACCESS_HEADS,
 			            ACCESS_ALL_PERSONAL_LOCKERS, ACCESS_MAINT_TUNNELS, ACCESS_BAR, ACCESS_JANITOR,
 			            ACCESS_CREMATORIUM, ACCESS_KITCHEN, ACCESS_CARGO, ACCESS_CARGO_BOT, ACCESS_MAILSORTING, ACCESS_QM, ACCESS_HYDROPONICS, ACCESS_LAWYER,
-			            ACCESS_THEATRE, ACCESS_CHAPEL_OFFICE, ACCESS_LIBRARY, ACCESS_RESEARCH, ACCESS_MINING, ACCESS_HEADS_VAULT, ACCESS_MINING_STATION,
+			            ACCESS_THEATRE, ACCESS_CHAPEL_OFFICE, ACCESS_LIBRARY, ACCESS_MINING, ACCESS_HEADS_VAULT, ACCESS_MINING_STATION,
 			            ACCESS_CLOWN, ACCESS_MIME, ACCESS_HOP, ACCESS_RC_ANNOUNCE, ACCESS_KEYCARD_AUTH, ACCESS_GATEWAY, ACCESS_WEAPONS, ACCESS_MINERAL_STOREROOM)
 	outfit = /datum/outfit/job/hop
 
@@ -110,6 +110,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 0)
 	selection_color = "#ddddff"
 	req_admin_notify = 1
 	is_command = 1
+	transfer_allowed = FALSE
 	minimal_player_age = 21
 	exp_requirements = 2880
 	exp_type = EXP_TYPE_COMMAND
@@ -155,6 +156,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 0)
 	selection_color = "#ddddff"
 	req_admin_notify = 1
 	is_command = 1
+	transfer_allowed = FALSE
 	minimal_player_age = 21
 	exp_requirements = 2160
 	exp_type = EXP_TYPE_CREW
@@ -200,6 +202,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 0)
 	selection_color = "#ddddff"
 	req_admin_notify = 1
 	is_legal = 1
+	transfer_allowed = FALSE
 	minimal_player_age = 30
 	exp_requirements = 2880
 	exp_type = EXP_TYPE_SECURITY
@@ -234,7 +237,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 0)
 
 
 
-//var/global/lawyer = 0//Checks for another lawyer //This changed clothes on 2nd lawyer, both IA get the same dreds.
+//GLOBAL_VAR_INIT(lawyer, 0) //Checks for another lawyer //This changed clothes on 2nd lawyer, both IA get the same dreds. | This was deprecated back in 2014, and its now 2020
 /datum/job/lawyer
 	title = "Internal Affairs Agent"
 	flag = JOB_LAWYER

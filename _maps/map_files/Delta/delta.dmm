@@ -235,10 +235,7 @@
 	},
 /area/shuttle/abandoned)
 "aaG" = (
-/obj/item/stock_parts/cell{
-	charge = 100;
-	maxcharge = 15000
-	},
+/obj/item/stock_parts/cell/high/plus,
 /turf/simulated/shuttle/floor{
 	icon_state = "floor3"
 	},
@@ -3256,10 +3253,7 @@
 	pixel_x = 0;
 	pixel_y = 10
 	},
-/obj/item/stock_parts/cell/high{
-	charge = 100;
-	maxcharge = 15000
-	},
+/obj/item/stock_parts/cell/high/plus,
 /obj/item/clothing/glasses/welding,
 /obj/machinery/light/small{
 	dir = 1
@@ -34329,6 +34323,9 @@
 	pixel_x = 32
 	},
 /obj/item/flashlight/lamp,
+/obj/machinery/vending/walldrobe/hos{
+	pixel_y = 28
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "grimy"
 	},
@@ -52226,6 +52223,7 @@
 /obj/machinery/status_display{
 	pixel_y = 32
 	},
+/obj/machinery/vending/walldrobe/ce,
 /turf/simulated/floor/plasteel{
 	icon_state = "grimy"
 	},
@@ -53377,12 +53375,6 @@
 	},
 /area/crew_quarters/chief)
 "bSd" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8";
-	tag = ""
-	},
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 8;
@@ -54678,12 +54670,6 @@
 	},
 /area/construction/hallway)
 "bTV" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8";
-	tag = ""
-	},
 /obj/machinery/atmospherics/unary/vent_pump{
 	dir = 8;
 	external_pressure_bound = 100;
@@ -54691,6 +54677,9 @@
 	pressure_checks = 1
 	},
 /obj/effect/decal/warning_stripes/west,
+/obj/machinery/vending/walldrobe/ce{
+	pixel_x = 28
+	},
 /turf/simulated/floor/plasteel,
 /area/crew_quarters/chief)
 "bTW" = (
@@ -61463,6 +61452,9 @@
 "cfa" = (
 /obj/structure/closet/secure_closet/captains,
 /obj/effect/decal/warning_stripes/southeast,
+/obj/machinery/vending/walldrobe/cap{
+	pixel_x = 28
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "wood"
 	},
@@ -98489,6 +98481,9 @@
 /turf/simulated/floor/plating,
 /area/toxins/misc_lab)
 "dtY" = (
+/obj/machinery/vending/walldrobe/rd{
+	pixel_y = -28
+	},
 /turf/simulated/floor/plasteel{
 	dir = 2;
 	icon_state = "whitepurplecorner"
@@ -102090,6 +102085,9 @@
 "dAs" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp,
+/obj/machinery/vending/walldrobe/cmo{
+	pixel_y = -28
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -142271,7 +142269,7 @@ bKm
 bMp
 bGz
 bQm
-bSc
+nOP
 bUo
 bWq
 cxE
@@ -142785,7 +142783,7 @@ bKo
 bMr
 bGz
 bGz
-bWq
+bGz
 bGz
 bGz
 bQr

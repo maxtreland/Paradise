@@ -28,3 +28,21 @@ datum/supply_packs/security/spacesuit
                     /obj/item/clothing/mask/breath)
     cost = 70
     containername = "security space suit crate"
+
+//Emergency//
+
+/datum/supply_packs/engineering/energy_shi
+	name = "Emergency Shield Crate"
+	cost = 120
+	contains = list(/obj/machinery/shieldgen, /obj/machinery/shieldgen, /obj/machinery/shieldgen, /obj/machinery/shieldgen)
+	containername = "emergency shield crate"
+	containertype = /obj/structure/closet/crate/secure/engineering
+	access = ACCESS_ENGINE
+
+/datum/supply_packs/emergency/panic_control
+	name = "Blackout Crate"
+	contains = list(/obj/item/storage/fancy/flare_box/full,
+					/obj/item/storage/fancy/flare_box/full
+					)
+	cost = 60
+	containername = "blackout shutdown"
