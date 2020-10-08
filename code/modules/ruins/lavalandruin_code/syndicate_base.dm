@@ -17,7 +17,7 @@
 	                /obj/item/grenade/chem_grenade/cryo = 5,
 	                /obj/item/grenade/chem_grenade/adv_release = 5,
 					/obj/item/reagent_containers/food/drinks/bottle/holywater = 1)
-	product_slogans = "It's not pyromania if you're getting paid!;You smell that? Plasma, son. Nothing else in the world smells like that.;I love the smell of Plasma in the morning."
+	slogan_list = list("It's not pyromania if you're getting paid!","You smell that? Plasma, son. Nothing else in the world smells like that.","I love the smell of Plasma in the morning.")
 	resistance_flags = FIRE_PROOF
 
 // Spawners
@@ -28,8 +28,10 @@
 	death = FALSE
 	icon = 'icons/obj/cryogenic2.dmi'
 	icon_state = "sleeper_s"
-	flavour_text = "<span class='big bold'>Eres un agente del sindicato,</span><b> empleado para desarrollar armas biológicas en una estación de investigación secreta. Deasfortunadamente, tu detestable enemigo, Nanotrasen, ha comenzado a minar en este sector. <b>Continúa con tu trabajo lo mejor que puedas, manteniendo un bajo perfil. La base está cargada con explosivos, no dejes que caiga en manos del enemigo ni la abandones.</b> \
-	<br><i>Eres libre de atacar a cualquiera que no esté alineado en las cercanías alrededor de la base. <font size=4>NO</font> trabajes en contra de agentes del sindicato (como traidores u operativos nucleares). Puedes trabajar con otros antagonistas dependiendo del caso. <font size=4>NO</font> abandones la base sin permiso de un admin.</i>"
+	important_info = "No trabajes contra el personal del sindicato (Como traidores u operativos nucleares). No abandones la base sin permiso de la administración."
+	description = "Experimenta con virus y químicos mortales o ayuda a los agentes del sindicato."
+	flavour_text = "Eres un agente del sindicato, empleado en un laboratorio de alto secreto desarrollando armas biológicas. Desafortunadamente, vuestro odioso enemigo, Nanotrasen, ha comenzado a minar en este sector. Continúe como mejor pueda, e intenta mantener un perfil bajo, la base esta equipada con explosivos, ¡no lo abandones o lo dejes caer en manos enemigas!\
+	Te ha quedado claro que el sindicato hará que te arrepientas si los decepcionas."
 	outfit = /datum/outfit/lavaland_syndicate
 	assignedrole = "Lavaland Syndicate"
 	del_types = list() // Necessary to prevent del_types from removing radio!
@@ -59,13 +61,14 @@
 /obj/effect/mob_spawn/human/lavaland_syndicate/comms
 	name = "Syndicate Comms Agent sleeper"
 	mob_name = "Syndicate Comms Agent"
-	flavour_text = "<span class='big bold'>Eres un agente del sindicato,</span><b> empleado para desarrollar armas biológicas en una estación de investigación secreta. Deasfortunadamente, tu detestable enemigo, Nanotrasen, ha comenzado a minar en este sector.<b>Tu trabajo es monitorear las comunicaciones enemigas lo mejor que puedas. NO abandones la base.</b> Usa el equipo de comunicaciones para apoyar agentes en el campo, recopilar inteligencia, y emitir desinformación para engañar a Nanotrasen. No dejes que la base caiga en manos enemigas!</b> \
-	<br><i>Eres libre de atacar a cualquiera que no esté alineado en las cercanías alrededor de la base. <font size=4>NO</font> trabajes en contra de agentes del sindicato (como traidores u operativos nucleares). Puedes trabajar con otros antagonistas dependiendo del caso. <font size=4>NO</font> abandones la base sin permiso de un admin.</i>"
+	important_info = "No trabajes contra el personal del sindicato (Como traidores u operativos nucleares). No abandones la base sin permiso de la administración. No reveles tu identidad a NT."
+	description = "Supervise las comunicaciones y las cámaras y trate de ayudar a los agentes en la estación mientras mantiene su existencia en secreto."
+	flavour_text = "Eres un agente del sindicato, empleado en un laboratorio de alto secreto desarrollando armas biológicas. Desafortunadamente, vuestro odioso enemigo, Nanotrasen, ha comenzado a minar en este sector. Continúe como mejor pueda, e intenta mantener un perfil bajo, la base esta equipada con explosivos, ¡no lo abandones o lo dejes caer en manos enemigas!\
+	Te ha quedado claro que el sindicato hará que te arrepientas si los decepcionas. Supervisa la actividad enemiga lo mejor que puedas y lo mejor que puedas y no interactúe con los tripulantes de la estación.."
 	outfit = /datum/outfit/lavaland_syndicate/comms
 
 /obj/effect/mob_spawn/human/lavaland_syndicate/comms/space
-	flavour_text = "<span class='big bold'>Eres un agente del sindicato,</span><b> asignado a un pequeño puesto de escucha cerca de una estación enemiga, Hispania. <b>Tu trabajo es monitorear las comunicaciones enemigas lo mejor que puedas. NO abandones la base.</b> Usa el equipo de comunicaciones para apoyar agentes en el campo y recopilar inteligencia, y emitir desinformación para engañar a Nanotrasen. No dejes que la base caiga en manos enemigas!</b>\
-	<br><i>Eres libre de atacar a cualquiera que no esté alineado en las cercanías alrededor de la base. <font size=4>NO</font> trabajes en contra agentes del sindicato (como traidores u operativos nucleares). Puedes trabajar con otros antagonistas dependiendo del caso. <font size=4>NO</font> abandones la base sin permiso de un admin.</i>"
+	flavour_text = "Eres un agente del sindicato, empleado en un pequeño puesto de escucha. Estarías muerto de aburrimiento si no pudieras escuchar a esos idiotas del NT que se equivocan todo el tiempo."
 
 /obj/effect/mob_spawn/human/lavaland_syndicate/comms/space/Initialize(mapload)
 	. = ..()

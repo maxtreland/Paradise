@@ -67,9 +67,10 @@
 	anchored = FALSE
 	move_resist = MOVE_FORCE_NORMAL
 	density = FALSE
-	flavour_text = "<span class='big bold'>Eres un ash walker.</span><b> Tu tribu adora la <span class='danger'>Necropolis</span>. Estas tierras son sagradas, y sus monstruos su bendita recompensa. \
-	Has visto luces a la distancia... Anuncian la llegada de forajeros que buscan destruir la Necropolis y su dominio. Sacrificios frescos para tu nido. \
-	<br><i>Eres libre de atacar a mineros y forajeros. <font size=4>NO</font> abandones Lavaland sin permiso de un admin! <font size=4>NO</font> ataques el puesto minero sin ser provocado.</b></i>"
+	important_info = "No abandone Lavaland sin permiso de administrador. No ataque el puesto de minería sin ser provocado."
+	description = "Eres un ashwalker, un habitante nativo de Lavaland. Intenta sobrevivir con nada más que lanzas y otras tecnologías tribales. Devuelve los cadáveres a tu zarcillo para crear más de tu especie. Eres libre de atacar a los mineros y otros forasteros."
+	flavour_text = "Tu tribu adora la Necrópolis. Los páramos son tierra sagrada, sus monstruos una bendita recompensa.\
+	Has visto luces en la distancia ... presagian la llegada de forasteros que buscan destrozar la Necrópolis y sus dominios. Nuevos sacrificios por tu nido."
 	assignedrole = "Ash Walker"
 
 /obj/effect/mob_spawn/human/ash_walker/special(mob/living/carbon/human/new_spawn)

@@ -253,7 +253,16 @@
 				to_chat(user, "<span class='warning'>This [W] does not seem to fit.</span>")
 				return
 
-			var/mob/living/silicon/robot/O = new /mob/living/silicon/robot(get_turf(loc), unfinished = 1)
+			var/datum/ai_laws/laws_to_give
+			if(M.syndiemmi)
+				aisync = FALSE
+				lawsync = FALSE
+				laws_to_give = new /datum/ai_laws/syndicate_override
+
+			if(!aisync)
+				lawsync = FALSE
+
+			var/mob/living/silicon/robot/O = new /mob/living/silicon/robot(get_turf(loc), unfinished = 1, ai_to_sync_to = forced_ai)
 			if(!O)
 				return
 
@@ -262,11 +271,6 @@
 			var/datum/job_objective/make_cyborg/task = user.mind.findJobTask(/datum/job_objective/make_cyborg)
 			if(istype(task))
 				task.unit_completed()
-
-			if(M.syndiemmi)
-				aisync = 0
-				lawsync = 0
-				O.laws = new /datum/ai_laws/syndicate_override
 
 			O.invisibility = 0
 			//Transfer debug settings to new mob

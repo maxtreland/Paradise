@@ -201,3 +201,5 @@ El Blob tiene alta resistencia al daño bruto. Usa Laseres.
 Puedes esconder papeles en las ventilaciones. Pero debes usar un destornillador para abrirla primero.
 Si bien las reglas del SOP no son totalmente reglas estan alli por motivos profesionales y de seguridad para la estacion.
 Matar al Mago normalmente termina la ronda, a menos que sea un lich o que la Federación de Magos Espaciales esté MUY ENOJADA!
+Adora a los coders como si fuesen dioses.
+Codea tu mierda.
