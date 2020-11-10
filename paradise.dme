@@ -1219,6 +1219,7 @@
 #include "code\HISPANIA\game\mecha\mech_fabricator.dm"
 #include "code\HISPANIA\game\mecha\mecha_control_console.dm"
 #include "code\HISPANIA\game\mecha\equipament\tools\medical_tools.dm"
+#include "code\HISPANIA\game\objects\effects\mapping_helpers.dm"
 #include "code\HISPANIA\game\objects\items\folding.dm"
 #include "code\HISPANIA\game\objects\items\inducer.dm"
 #include "code\HISPANIA\game\objects\items\policetape.dm"
