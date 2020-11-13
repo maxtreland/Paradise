@@ -14,10 +14,6 @@
 	var/destination_x
 	var/destination_y
 
-/turf/simulated/floor/plating/asteroid/snow/naga/Initialize(mapload)
-	initialized = TRUE
-	return INITIALIZE_HINT_NORMAL
-
 /turf/simulated/floor/plating/asteroid/snow/naga/Entered(atom/movable/A as mob|obj, atom/OL, ignoreRest = 0)
 	..()
 	if((!(A) || !(src in A.locs)))
@@ -61,3 +57,8 @@
 
 /turf/simulated/floor/plating/asteroid/snow/naga/proc/remove_transitions()
 	destination_z = initial(destination_z)
+
+/turf/simulated/floor/plating/asteroid/snow/naga/attack_ghost(mob/dead/observer/user)
+	if(destination_z)
+		var/turf/T = locate(destination_x, destination_y, destination_z)
+		user.forceMove(T)

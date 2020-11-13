@@ -364,9 +364,11 @@
 		log_debug("Z level [D.zpos]")
 		switch(D.linkage)
 			if(UNAFFECTED)
+				/*
 				for(var/B in D.transit_west | D.transit_east | D.transit_south | D.transit_north)
 					S = B
 					S.remove_transitions()
+				*/
 			if(SELFLOOPING,CROSSLINKED)
 				// Left border
 				for(var/B in D.transit_west)
