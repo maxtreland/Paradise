@@ -349,7 +349,7 @@
 	log_debug("Assigning space turf destinations...")
 	var/datum/space_level/D
 	var/datum/space_level/E
-	var/turf/space/S
+	var/turf/simulated/floor/plating/asteroid/snow/naga/S
 	var/list/levels_to_rebuild = unbuilt_space_transitions
 
 	if(force_all_rebuilds)
@@ -425,5 +425,5 @@
 				grid_desc += "Right: [right.zpos], "
 				grid_desc += "Left: [left.zpos]"
 			else
-				our_spot = our_spot.ChangeTurf(/turf/simulated/floor/fakespace)
+				our_spot = our_spot.ChangeTurf(/turf/simulated/floor/plating/asteroid/snow/naga)
 			our_spot.desc = grid_desc
