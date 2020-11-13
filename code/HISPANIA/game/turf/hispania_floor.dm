@@ -35,3 +35,4 @@
 
 /turf/simulated/floor/plating/asteroid/snow/naga/proc/remove_transitions()
 	destination_z = initial(destination_z)
+
