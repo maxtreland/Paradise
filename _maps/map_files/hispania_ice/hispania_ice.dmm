@@ -13056,6 +13056,7 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+/obj/effect/baseturf_helper/asteroid/snow_naga,
 /turf/simulated/shuttle/floor,
 /area/shuttle/pod_3)
 "avv" = (
@@ -16006,7 +16007,9 @@
 	},
 /area/shuttle/specops)
 "aAj" = (
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /turf/simulated/shuttle/wall{
+	tag = "icon-swall_f9";
 	icon_state = "swall_f9";
 	dir = 2
 	},
@@ -18476,6 +18479,7 @@
 	tag_exterior_door = "solar_chapel_outer";
 	tag_interior_door = "solar_chapel_inner"
 	},
+/obj/effect/baseturf_helper/asteroid/snow_naga,
 /turf/simulated/floor/plating,
 /area/maintenance/auxsolarstarboard)
 "aES" = (
@@ -46909,7 +46913,9 @@
 	},
 /area/shuttle/escape)
 "bIF" = (
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /turf/simulated/shuttle/wall{
+	tag = "icon-swall_f9";
 	icon_state = "swall_f9";
 	dir = 2
 	},
@@ -98344,7 +98350,9 @@
 	},
 /area/security/armoury)
 "ods" = (
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /turf/simulated/shuttle/wall{
+	tag = "icon-swall_f10";
 	icon_state = "swall_f10";
 	dir = 2
 	},
@@ -98936,6 +98944,10 @@
 	icon_state = "floor4"
 	},
 /area/shuttle/tsf)
+"rgg" = (
+/obj/structure/flora/bush,
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "rgm" = (
 /turf/simulated/floor/carpet,
 /area/maintenance/port)
@@ -105034,7 +105046,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -105505,7 +105517,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -106353,7 +106365,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -106607,7 +106619,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -106782,7 +106794,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -107048,7 +107060,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -107581,7 +107593,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 apr
@@ -107601,7 +107613,7 @@ xWz
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -107814,7 +107826,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -108672,7 +108684,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -109095,6 +109107,7 @@ brm
 brm
 brm
 brm
+rgg
 brm
 brm
 brm
@@ -109105,8 +109118,7 @@ brm
 brm
 brm
 brm
-brm
-brm
+rgg
 brm
 brm
 brm
@@ -109184,7 +109196,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -109871,7 +109883,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -110215,7 +110227,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -110465,7 +110477,7 @@ clE
 bPI
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -111496,7 +111508,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -112015,7 +112027,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -112785,7 +112797,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -119639,7 +119651,7 @@ brm
 brm
 brm
 brm
-brm
+xWz
 brm
 brm
 bgo
@@ -120397,7 +120409,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -120447,7 +120459,7 @@ bgo
 brm
 bgo
 brm
-brm
+xWz
 beL
 bgA
 biJ
@@ -120954,7 +120966,7 @@ aMA
 aMA
 aRn
 aSv
-brm
+xWz
 aUE
 aVk
 aWu
@@ -121935,7 +121947,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -122496,14 +122508,14 @@ brm
 aQg
 aRq
 aSy
-brm
+xWz
 bgo
 brm
 bgo
 brm
 bgo
 brm
-brm
+xWz
 beS
 bgA
 bmv
@@ -122968,7 +122980,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 abx
@@ -123215,7 +123227,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -124651,7 +124663,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -125429,7 +125441,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -125527,7 +125539,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -126107,7 +126119,7 @@ bgS
 bmV
 bkv
 bmb
-brm
+rgg
 tTF
 bmb
 bgP
@@ -126454,7 +126466,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -127392,7 +127404,7 @@ bgP
 bmV
 bkv
 bmb
-brm
+rgg
 bmc
 bqO
 bsv
@@ -127490,7 +127502,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -130313,7 +130325,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -131504,7 +131516,7 @@ dkm
 bnn
 bkF
 bmi
-brm
+rgg
 bmc
 bra
 bsG
@@ -131607,7 +131619,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -132113,7 +132125,7 @@ dgG
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -132790,7 +132802,7 @@ bnt
 bpz
 bmi
 brm
-brm
+rgg
 bmi
 bsL
 byu
@@ -133920,7 +133932,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -134424,7 +134436,7 @@ nxO
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -134781,7 +134793,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -135301,7 +135313,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -137610,7 +137622,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -138644,7 +138656,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -139173,7 +139185,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 awl
 awl
 awl
@@ -140470,7 +140482,7 @@ avw
 alw
 brm
 brm
-brm
+iWi
 aOI
 tdb
 qDA
@@ -147909,7 +147921,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -150233,7 +150245,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -150485,6 +150497,7 @@ brm
 brm
 brm
 brm
+iWi
 brm
 brm
 brm
@@ -150495,8 +150508,7 @@ brm
 brm
 brm
 brm
-brm
-brm
+iWi
 brm
 brm
 brm
@@ -150506,7 +150518,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -151260,6 +151272,7 @@ brm
 brm
 brm
 brm
+rgg
 brm
 brm
 brm
@@ -151269,8 +151282,7 @@ brm
 brm
 brm
 brm
-brm
-brm
+rgg
 brm
 brm
 brm
@@ -152025,7 +152037,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -152806,7 +152818,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -154146,7 +154158,7 @@ bIx
 bKm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -154191,7 +154203,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -154356,7 +154368,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -154697,7 +154709,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -155948,11 +155960,19 @@ brm
 brm
 brm
 brm
+rgg
 brm
 brm
 brm
 brm
 brm
+brm
+rgg
+brm
+brm
+brm
+brm
+aZD
 brm
 brm
 brm
@@ -155966,17 +155986,14 @@ brm
 brm
 brm
 brm
-brm
-brm
-aZD
-brm
+iWi
 brm
 brm
 brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -155985,12 +156002,7 @@ brm
 brm
 brm
 brm
-brm
-brm
-brm
-brm
-brm
-brm
+rgg
 brm
 brm
 brm
@@ -156480,7 +156492,7 @@ brm
 qPO
 brm
 brm
-brm
+rgg
 brm
 aZD
 brm
@@ -157013,7 +157025,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -157776,6 +157788,7 @@ brm
 brm
 brm
 brm
+iWi
 brm
 brm
 brm
@@ -157788,8 +157801,7 @@ brm
 brm
 brm
 brm
-brm
-brm
+iWi
 brm
 brm
 brm
@@ -158293,7 +158305,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -158555,7 +158567,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -158801,7 +158813,7 @@ brm
 brm
 brm
 brm
-brm
+rgg
 brm
 brm
 brm
@@ -159053,7 +159065,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -159321,7 +159333,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
