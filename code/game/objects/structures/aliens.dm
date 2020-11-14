@@ -123,7 +123,7 @@
 /obj/structure/alien/weeds/New(pos, node)
 	..()
 	linked_node = node
-	if(istype(loc, /turf/space))
+	if(istype(loc, /turf/simulated/floor/plating/asteroid/snow/naga))
 		qdel(src)
 		return
 	if(icon_state == "weeds")
@@ -143,7 +143,7 @@
 /obj/structure/alien/weeds/proc/Life()
 	var/turf/U = get_turf(src)
 
-	if(istype(U, /turf/space))
+	if(istype(U, /turf/simulated/floor/plating/asteroid/snow/naga))
 		qdel(src)
 		return
 
@@ -152,7 +152,7 @@
 
 	for(var/turf/T in U.GetAtmosAdjacentTurfs())
 
-		if(locate(/obj/structure/alien/weeds) in T || istype(T, /turf/space))
+		if(locate(/obj/structure/alien/weeds) in T || istype(T, /turf/simulated/floor/plating/asteroid/snow/naga))
 			continue
 
 		new /obj/structure/alien/weeds(T, linked_node)
