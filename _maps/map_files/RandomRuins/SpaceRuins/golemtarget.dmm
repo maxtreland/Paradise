@@ -5,16 +5,22 @@
 "x" = (
 /turf/simulated/mineral/random/high_chance,
 /area/ruin/unpowered)
+"C" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/mineral/random/high_chance,
+/area/ruin/unpowered)
 "H" = (
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "S" = (
 /obj/docking_port/stationary{
+	area_type = /area/snowland/surface;
 	dir = 8;
 	dwidth = 8;
 	height = 20;
 	id = "freegolem_space";
 	name = "The middle of space";
+	turf_type = /turf/simulated/floor/plating/asteroid/snow/naga;
 	width = 16
 	},
 /turf/template_noop,
@@ -120,7 +126,7 @@ a
 a
 x
 x
-x
+C
 a
 a
 a
@@ -785,7 +791,7 @@ a
 x
 x
 x
-x
+C
 x
 "}
 (25,1,1) = {"
@@ -793,7 +799,7 @@ a
 a
 a
 x
-x
+C
 x
 H
 a
@@ -869,7 +875,7 @@ a
 a
 H
 x
-x
+C
 x
 x
 a

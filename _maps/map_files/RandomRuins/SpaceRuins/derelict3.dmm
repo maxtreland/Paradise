@@ -3,7 +3,7 @@
 /turf/template_noop,
 /area/template_noop)
 "b" = (
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "c" = (
 /turf/simulated/wall,
@@ -11,12 +11,16 @@
 "d" = (
 /obj/structure/lattice,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "e" = (
 /obj/structure/lattice,
 /obj/structure/lattice,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
+"G" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/ruin/unpowered)
 
 (1,1,1) = {"
 a
@@ -262,7 +266,7 @@ d
 b
 b
 b
-b
+G
 b
 c
 a
@@ -831,7 +835,7 @@ a
 a
 d
 d
-b
+G
 d
 b
 c
@@ -878,7 +882,7 @@ d
 b
 c
 b
-b
+G
 b
 b
 b
@@ -1007,7 +1011,7 @@ b
 b
 d
 d
-b
+G
 d
 a
 a
@@ -1037,7 +1041,7 @@ b
 b
 b
 c
-b
+G
 b
 b
 b
@@ -1085,7 +1089,7 @@ b
 b
 d
 d
-b
+G
 d
 d
 d
@@ -1296,7 +1300,7 @@ d
 d
 d
 b
-b
+G
 b
 b
 c
@@ -1334,7 +1338,7 @@ a
 a
 d
 d
-b
+G
 d
 d
 b

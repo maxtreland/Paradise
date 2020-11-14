@@ -3,13 +3,21 @@
 /turf/template_noop,
 /area/template_noop)
 "b" = (
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "c" = (
 /turf/simulated/mineral,
 /area/ruin/unpowered)
 "d" = (
 /turf/simulated/mineral/random/high_chance,
+/area/ruin/unpowered)
+"l" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/mineral/random/high_chance,
+/area/ruin/unpowered)
+"V" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 
 (1,1,1) = {"
@@ -31,7 +39,7 @@ a
 a
 a
 a
-b
+V
 a
 "}
 (2,1,1) = {"
@@ -96,7 +104,7 @@ b
 b
 a
 a
-b
+V
 a
 a
 "}
@@ -242,7 +250,7 @@ b
 c
 c
 c
-d
+l
 d
 d
 d
@@ -390,7 +398,7 @@ a
 a
 a
 a
-b
+V
 b
 a
 a
@@ -433,7 +441,7 @@ a
 (20,1,1) = {"
 a
 a
-b
+V
 a
 a
 a

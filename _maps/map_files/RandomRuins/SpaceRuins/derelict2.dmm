@@ -9,7 +9,7 @@
 	dir = 4
 	},
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "c" = (
 /obj/machinery/door/airlock/external,
 /turf/simulated/floor/plating,
@@ -21,7 +21,7 @@
 	dir = 8
 	},
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "e" = (
 /obj/structure/window/reinforced{
 	tag = "icon-rwindow (EAST)";
@@ -65,7 +65,7 @@
 "k" = (
 /obj/structure/window/reinforced,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "l" = (
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
@@ -113,7 +113,7 @@
 	dir = 1
 	},
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "q" = (
 /obj/machinery/light/small{
 	tag = "icon-bulb1 (WEST)";
@@ -124,6 +124,10 @@
 /area/ruin/powered)
 "r" = (
 /obj/machinery/light/small,
+/turf/simulated/floor/plasteel,
+/area/ruin/powered)
+"Q" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
 /turf/simulated/floor/plasteel,
 /area/ruin/powered)
 
@@ -1028,7 +1032,7 @@ d
 g
 i
 i
-i
+Q
 o
 i
 i

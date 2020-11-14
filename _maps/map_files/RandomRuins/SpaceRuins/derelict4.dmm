@@ -6,7 +6,7 @@
 /turf/simulated/mineral,
 /area/ruin/unpowered)
 "c" = (
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "d" = (
 /turf/simulated/mineral/random/high_chance,
@@ -16,10 +16,7 @@
 /area/ruin/unpowered)
 "f" = (
 /obj/machinery/door/airlock/shuttle,
-/turf/simulated/floor/plating/airless,
-/area/ruin/unpowered)
-"g" = (
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "h" = (
 /turf/simulated/floor/mineral/titanium/blue,
@@ -51,17 +48,17 @@
 /area/ruin/unpowered)
 "m" = (
 /obj/item/shard,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "n" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "o" = (
 /obj/structure/grille,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "p" = (
 /obj/structure/table,
@@ -89,11 +86,19 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "t" = (
 /obj/structure/girder,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/ruin/unpowered)
+"w" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/mineral/titanium/blue,
+/area/ruin/unpowered)
+"F" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/mineral,
 /area/ruin/unpowered)
 
 (1,1,1) = {"
@@ -249,7 +254,7 @@ a
 a
 a
 a
-b
+F
 a
 a
 a
@@ -336,7 +341,7 @@ a
 a
 a
 b
-b
+F
 b
 a
 a
@@ -373,7 +378,7 @@ a
 a
 a
 a
-b
+F
 a
 a
 a
@@ -482,7 +487,7 @@ a
 a
 b
 b
-b
+F
 b
 b
 a
@@ -830,8 +835,8 @@ d
 b
 b
 b
-g
-g
+c
+c
 o
 b
 b
@@ -872,10 +877,10 @@ b
 b
 c
 e
-g
+c
 m
 p
-g
+c
 e
 c
 b
@@ -914,7 +919,7 @@ b
 b
 c
 e
-g
+c
 n
 q
 h
@@ -956,7 +961,7 @@ b
 b
 c
 e
-g
+c
 h
 h
 h
@@ -1012,7 +1017,7 @@ a
 a
 d
 b
-b
+F
 c
 c
 c
@@ -1041,7 +1046,7 @@ c
 c
 f
 h
-h
+w
 h
 h
 f
@@ -1116,7 +1121,7 @@ a
 a
 a
 a
-b
+F
 a
 a
 b
@@ -1168,9 +1173,9 @@ c
 e
 k
 h
-g
-g
-g
+c
+c
+c
 c
 c
 a
@@ -1197,7 +1202,7 @@ a
 a
 a
 a
-b
+F
 b
 a
 a
@@ -1637,9 +1642,9 @@ a
 a
 a
 a
-b
+F
 a
-b
+F
 d
 b
 b

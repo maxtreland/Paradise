@@ -4,58 +4,58 @@
 /area/template_noop)
 "b" = (
 /obj/structure/disposalpipe/segment,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "c" = (
 /obj/structure/lattice,
 /obj/structure/disposalpipe/broken{
 	dir = 1
 	},
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "d" = (
 /obj/structure/lattice,
-/turf/space,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/template_noop)
 "e" = (
 /obj/structure/grille/broken,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "g" = (
 /obj/structure/disposalpipe/broken{
 	dir = 4
 	},
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "h" = (
 /obj/structure/disposalpipe/broken{
 	dir = 8
 	},
 /obj/item/stack/cable_coil/cut,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "l" = (
 /obj/item/stack/cable_coil/cut,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "m" = (
 /obj/effect/spawner/random_spawners/grille_often,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "n" = (
 /obj/effect/spawner/random_spawners/grille_maybe,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "o" = (
 /obj/random/tool,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "p" = (
 /obj/structure/girder/displaced,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "r" = (
-/turf/space,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/template_noop)
 "t" = (
 /obj/structure/cable{
@@ -63,39 +63,40 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/space,
-/area/space)
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "u" = (
 /obj/structure/door_assembly/door_assembly_sec,
 /obj/item/airlock_electronics,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "v" = (
 /obj/structure/lattice,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "x" = (
 /obj/structure/disposalpipe/junction,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "y" = (
 /turf/simulated/floor/plating/burnt,
-/area/space)
+/area/snowland/surface)
 "z" = (
 /obj/item/stack/sheet/metal,
 /turf/simulated/floor/plating,
-/area/space)
+/area/snowland/surface)
 "B" = (
 /obj/structure/lattice,
 /obj/item/stack/sheet/metal,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "C" = (
 /obj/structure/disposalpipe/broken{
 	dir = 1
 	},
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "D" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -105,72 +106,72 @@
 	tag = ""
 	},
 /turf/simulated/floor/plating/burnt,
-/area/space)
+/area/snowland/surface)
 "E" = (
 /obj/item/stack/rods,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "F" = (
 /turf/simulated/floor/plating,
-/area/space)
+/area/snowland/surface)
 "G" = (
 /obj/random/toolbox,
 /turf/simulated/floor/plating/burnt,
-/area/space)
+/area/snowland/surface)
 "I" = (
 /obj/structure/grille/broken,
 /obj/structure/lattice,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "J" = (
 /obj/structure/disposalpipe/broken,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "K" = (
 /obj/item/shard,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "N" = (
 /obj/structure/lattice,
 /obj/structure/lattice,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "O" = (
 /obj/machinery/power/apc/worn_out{
 	pixel_y = -24
 	},
 /obj/structure/cable,
 /turf/simulated/floor/plating,
-/area/space)
+/area/snowland/surface)
 "Q" = (
 /obj/effect/decal/cleanable/shreds{
 	pixel_x = 4;
 	pixel_y = 3
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/snowland/surface)
 "T" = (
 /obj/structure/girder,
 /turf/simulated/floor/plating/burnt,
-/area/space)
+/area/snowland/surface)
 "U" = (
 /obj/effect/spawner/random_barrier/wall_probably,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "V" = (
 /turf/simulated/wall,
-/area/space)
+/area/snowland/surface)
 "X" = (
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "Y" = (
 /obj/item/shard,
 /turf/simulated/floor/plating,
-/area/space)
+/area/snowland/surface)
 "Z" = (
 /obj/item/stack/sheet/metal,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 
 (1,1,1) = {"
 a

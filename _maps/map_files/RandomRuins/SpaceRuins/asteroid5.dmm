@@ -9,7 +9,19 @@
 /turf/simulated/mineral/random/high_chance,
 /area/ruin/unpowered)
 "d" = (
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/ruin/unpowered)
+"y" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/mineral/random/high_chance,
+/area/ruin/unpowered)
+"J" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/ruin/unpowered)
+"Y" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/mineral,
 /area/ruin/unpowered)
 
 (1,1,1) = {"
@@ -655,7 +667,7 @@ a
 a
 a
 a
-b
+Y
 a
 a
 a
@@ -777,7 +789,7 @@ d
 d
 a
 a
-b
+Y
 b
 a
 a
@@ -827,7 +839,7 @@ a
 a
 a
 b
-b
+Y
 c
 c
 b
@@ -838,7 +850,7 @@ d
 b
 b
 b
-b
+Y
 d
 d
 d
@@ -994,7 +1006,7 @@ a
 a
 a
 a
-b
+Y
 a
 a
 a
@@ -1069,7 +1081,7 @@ b
 b
 b
 b
-d
+J
 d
 d
 a
@@ -1518,7 +1530,7 @@ a
 a
 a
 b
-b
+Y
 b
 b
 a
@@ -1538,7 +1550,7 @@ a
 a
 b
 c
-c
+y
 c
 b
 b

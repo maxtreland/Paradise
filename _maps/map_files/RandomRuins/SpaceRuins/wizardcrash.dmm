@@ -3,7 +3,7 @@
 /turf/template_noop,
 /area/template_noop)
 "ab" = (
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "ac" = (
 /turf/simulated/mineral,
@@ -496,7 +496,7 @@
 /area/ruin/unpowered)
 "bH" = (
 /turf/simulated/wall/mineral/titanium,
-/area/space/nearstation)
+/area/snowland/surface)
 "bI" = (
 /obj/structure/window/reinforced,
 /turf/simulated/floor/mineral/plasma,
@@ -543,6 +543,10 @@
 /obj/item/stack/sheet/mineral/plasma,
 /obj/structure/table,
 /turf/simulated/floor/plating,
+/area/ruin/unpowered)
+"hC" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/wood,
 /area/ruin/unpowered)
 
 (1,1,1) = {"
@@ -844,7 +848,7 @@ aa
 (9,1,1) = {"
 aa
 aa
-ac
+ab
 ac
 ac
 ac
@@ -896,7 +900,7 @@ aC
 aG
 aJ
 aG
-aC
+hC
 aC
 aC
 aC

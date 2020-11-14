@@ -4,10 +4,10 @@
 /area/template_noop)
 "ab" = (
 /turf/simulated/mineral,
-/area/space/nearstation)
+/area/snowland/surface)
 "ac" = (
-/turf/simulated/floor/plating/asteroid/airless,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "ad" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
@@ -22,18 +22,18 @@
 /turf/simulated/floor/plating,
 /area/ruin/powered)
 "ag" = (
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/powered)
 "ah" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/powered)
 "ai" = (
 /turf/simulated/mineral,
 /area/ruin/powered)
 "aj" = (
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /turf/simulated/shuttle/wall{
 	icon_state = "swall_f6";
 	dir = 2
@@ -45,7 +45,7 @@
 /turf/simulated/floor/plating,
 /area/ruin/powered)
 "al" = (
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /turf/simulated/shuttle/wall{
 	dir = 2;
 	icon_state = "swall_f10";
@@ -443,7 +443,7 @@
 /area/ruin/powered)
 "bp" = (
 /obj/structure/shuttle/engine/propulsion/burst,
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /turf/simulated/shuttle/wall{
 	icon_state = "swall_f5";
 	dir = 2
@@ -465,7 +465,7 @@
 /area/ruin/powered)
 "bs" = (
 /obj/structure/shuttle/engine/propulsion/burst,
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /turf/simulated/shuttle/wall{
 	icon_state = "swall_f9";
 	dir = 2
@@ -475,6 +475,20 @@
 /obj/effect/decal/warning_stripes/south,
 /turf/simulated/floor/plating,
 /area/ruin/powered)
+"Iv" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plating,
+/area/ruin/powered)
+"NH" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
+"ZK" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plasteel,
+/area/ruin/powered{
+	name = "Space Bar"
+	})
 
 (1,1,1) = {"
 aa
@@ -865,7 +879,7 @@ aa
 aa
 ac
 ac
-ac
+NH
 af
 ag
 ag
@@ -1139,7 +1153,7 @@ ag
 ag
 bt
 bq
-bo
+Iv
 bo
 bo
 bo
@@ -1423,7 +1437,7 @@ aO
 aU
 aO
 aO
-aO
+ZK
 aO
 aO
 aO

@@ -2,110 +2,112 @@
 "a" = (
 /turf/template_noop,
 /area/template_noop)
-"b" = (
-/turf/simulated/floor/plating/airless,
-/area/space)
 "c" = (
 /turf/simulated/floor/plasteel/airless,
-/area/space)
+/area/snowland/surface)
 "d" = (
 /turf/simulated/wall/r_wall,
-/area/space)
+/area/snowland/surface)
 "e" = (
 /obj/item/stack/cable_coil/cut,
-/turf/space,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/template_noop)
 "h" = (
 /obj/structure/girder,
-/turf/space,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/template_noop)
 "j" = (
 /obj/structure/grille/broken,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
+"k" = (
+/obj/effect/landmark/burnturf,
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor,
+/area/snowland/surface)
 "l" = (
 /obj/structure/girder,
 /turf/simulated/floor/plating,
-/area/space)
+/area/snowland/surface)
 "m" = (
 /obj/structure/grille/broken,
 /turf/template_noop,
-/area/space)
+/area/snowland/surface)
 "n" = (
 /obj/item/stack/cable_coil/cut,
 /turf/template_noop,
-/area/space)
+/area/snowland/surface)
 "o" = (
 /obj/machinery/door/airlock/command{
 	max_integrity = 40
 	},
 /turf/simulated/floor/plating/burnt,
-/area/space)
+/area/snowland/surface)
 "p" = (
 /mob/living/simple_animal/hostile/carp,
-/turf/space,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/template_noop)
 "q" = (
 /obj/structure/lattice,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "s" = (
 /obj/item/stack/rods,
-/turf/space,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/template_noop)
 "t" = (
 /obj/structure/door_assembly/door_assembly_com,
-/turf/space,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/template_noop)
 "u" = (
 /obj/item/clothing/head/bio_hood/virology,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "w" = (
 /obj/structure/lattice,
 /turf/template_noop,
-/area/space)
+/area/snowland/surface)
 "x" = (
 /turf/template_noop,
-/area/space)
+/area/snowland/surface)
 "y" = (
 /obj/structure/lattice,
 /obj/structure/door_assembly/door_assembly_vault{
 	anchored = 1
 	},
 /turf/simulated/floor/plating,
-/area/space)
+/area/snowland/surface)
 "z" = (
 /obj/item/stack/rods,
 /turf/template_noop,
-/area/space)
+/area/snowland/surface)
 "A" = (
 /obj/structure/closet/crate,
 /obj/item/reagent_containers/glass/beaker/bluespace,
 /turf/simulated/floor/plasteel/airless,
-/area/space)
+/area/snowland/surface)
 "B" = (
 /obj/item/shard{
 	icon_state = "small"
 	},
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "C" = (
 /obj/item/stack/sheet/metal,
-/turf/space,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/template_noop)
 "D" = (
 /obj/effect/landmark/burnturf,
-/turf/simulated/floor/plating/airless,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "E" = (
 /obj/item/reagent_containers/glass/beaker/large,
-/turf/space,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/template_noop)
 "F" = (
 /obj/effect/landmark/burnturf,
 /turf/simulated/floor,
-/area/space)
+/area/snowland/surface)
 "G" = (
 /obj/structure/safe,
 /obj/item/stack/sheet/mineral/bananium{
@@ -116,78 +118,78 @@
 	},
 /obj/item/dnainjector/comic,
 /turf/simulated/floor/plasteel/airless,
-/area/space)
+/area/snowland/surface)
 "H" = (
 /obj/structure/table,
 /obj/item/shard{
 	icon_state = "medium"
 	},
 /turf/simulated/floor/plasteel/airless,
-/area/space)
+/area/snowland/surface)
 "I" = (
-/turf/space,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/template_noop)
 "J" = (
 /mob/living/simple_animal/hostile/carp,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "L" = (
 /obj/item/shard,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "M" = (
 /turf/simulated/floor,
-/area/space)
+/area/snowland/surface)
 "N" = (
 /obj/item/clothing/suit/bio_suit/virology,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "O" = (
 /obj/item/shard{
 	icon_state = "small"
 	},
-/turf/space,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/template_noop)
 "P" = (
 /obj/item/reagent_containers/spray/cleaner,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "R" = (
 /obj/item/stack/sheet/metal,
 /turf/template_noop,
-/area/space)
+/area/snowland/surface)
 "S" = (
 /obj/item/reagent_containers/spray/cleaner,
-/turf/space,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/template_noop)
 "T" = (
 /turf/simulated/wall,
-/area/space)
+/area/snowland/surface)
 "U" = (
 /obj/effect/landmark/burnturf,
 /turf/simulated/floor/plasteel/airless,
-/area/space)
+/area/snowland/surface)
 "V" = (
 /obj/structure/lattice,
-/turf/space,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/template_noop)
 "W" = (
 /obj/effect/landmark/burnturf,
 /turf/simulated/floor/plating/burnt,
-/area/space)
+/area/snowland/surface)
 "X" = (
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "Y" = (
 /obj/structure/girder/reinforced,
 /turf/simulated/floor/plating/damaged,
-/area/space)
+/area/snowland/surface)
 "Z" = (
 /obj/machinery/computer/pandemic{
 	circuit = /obj/effect/decal/cleanable/shreds
 	},
 /turf/simulated/floor/plasteel/airless,
-/area/space)
+/area/snowland/surface)
 
 (1,1,1) = {"
 a
@@ -282,7 +284,7 @@ a
 Y
 M
 F
-F
+k
 q
 d
 z
@@ -356,7 +358,7 @@ R
 X
 w
 X
-b
+X
 x
 x
 I
@@ -415,13 +417,13 @@ I
 I
 T
 c
-F
+k
 T
 X
 X
 c
 F
-b
+X
 j
 D
 T
@@ -445,7 +447,7 @@ I
 L
 q
 q
-b
+X
 T
 I
 s

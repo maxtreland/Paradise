@@ -1,7 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "ab" = (
 /obj/machinery/shieldwallgen{
 	active = 2;
@@ -12,7 +12,7 @@
 	icon_state = "0-4";
 	d2 = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "ac" = (
 /obj/structure/grille,
@@ -40,7 +40,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "ae" = (
 /obj/machinery/shieldwallgen{
@@ -58,7 +58,7 @@
 	icon_state = "0-2";
 	d2 = 2
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "af" = (
 /obj/machinery/shieldwallgen{
@@ -70,7 +70,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "ag" = (
 /obj/structure/grille,
@@ -314,8 +314,8 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/space,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "aL" = (
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
@@ -355,7 +355,7 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/space,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/space/nearstation)
 "aR" = (
 /obj/machinery/light/small{
@@ -658,7 +658,7 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/shieldwallgen,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "bu" = (
 /obj/structure/flora/ausbushes/sunnybush,
@@ -708,21 +708,21 @@
 /area/ruin/unpowered)
 "bB" = (
 /obj/structure/alien/weeds,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "bC" = (
 /obj/structure/alien/weeds/node,
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "bD" = (
 /obj/item/clothing/mask/facehugger{
 	icon_state = "facehugger_dead";
 	stat = 2
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "bE" = (
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -738,7 +738,7 @@
 /area/ruin/unpowered)
 "bH" = (
 /obj/structure/alien/resin/wall,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "bI" = (
 /obj/structure/flora/ausbushes/reedbush,
@@ -752,8 +752,8 @@
 /area/ruin/unpowered)
 "bK" = (
 /obj/structure/disposalpipe/segment,
-/turf/simulated/floor/plating,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "bL" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -771,16 +771,16 @@
 /obj/item/shard{
 	icon_state = "small"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "bO" = (
 /obj/item/shard,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "bP" = (
 /obj/structure/lattice,
-/turf/space,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "bQ" = (
 /obj/machinery/shieldwallgen{
 	active = 2;
@@ -794,15 +794,15 @@
 	tag = ""
 	},
 /obj/structure/cable,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "bR" = (
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
 /obj/structure/disposaloutlet,
-/turf/simulated/floor/plating,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "bS" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -811,39 +811,76 @@
 	},
 /obj/structure/cable,
 /obj/machinery/shieldwallgen,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "bT" = (
 /obj/structure/grille,
 /obj/item/shard{
 	icon_state = "medium"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "bU" = (
 /obj/structure/grille/broken,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "bV" = (
 /obj/machinery/shieldwallgen,
-/turf/space,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "bW" = (
 /obj/item/shard,
-/turf/space,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
+"eb" = (
+/obj/structure/grille,
+/obj/structure/window/full/reinforced,
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/ruin/unpowered)
+"fm" = (
+/obj/structure/grille,
+/obj/structure/window/full/reinforced,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/ruin/unpowered)
+"jj" = (
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/ruin/unpowered)
 "Hv" = (
 /obj/item/gps/ruin,
 /turf/simulated/wall/r_wall,
 /area/ruin/unpowered)
+"PL" = (
+/obj/structure/grille,
+/obj/structure/window/full/reinforced,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_y = 0
+	},
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/ruin/unpowered)
+"Ri" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plasteel,
+/area/ruin/unpowered)
+"Wm" = (
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/space)
 
 (1,1,1) = {"
 aa
 ab
-ag
-ag
-ag
-ag
+eb
+eb
+eb
+eb
 ab
 aa
 aa
@@ -852,38 +889,38 @@ aa
 aa
 aa
 ab
-ag
-ag
-ag
-ag
+eb
+eb
+eb
+eb
 ab
 aa
 "}
 (2,1,1) = {"
 aa
-ac
+PL
 ah
 ai
 ar
 ah
-ac
+PL
 aK
 aK
 aK
 aK
 aK
 aK
-ac
+PL
 bu
 bv
 bI
 bv
-ac
+PL
 aa
 "}
 (3,1,1) = {"
 aa
-ac
+PL
 ah
 ap
 ai
@@ -900,12 +937,12 @@ bv
 bv
 bJ
 bv
-ac
+PL
 aa
 "}
 (4,1,1) = {"
 aa
-ac
+PL
 ai
 ah
 ai
@@ -922,12 +959,12 @@ bw
 bv
 bv
 bv
-ac
+PL
 aa
 "}
 (5,1,1) = {"
 aa
-ac
+PL
 aj
 ai
 as
@@ -944,7 +981,7 @@ bx
 bE
 bv
 bv
-ac
+PL
 aa
 "}
 (6,1,1) = {"
@@ -1023,7 +1060,7 @@ ay
 aH
 aO
 ay
-ay
+Ri
 ay
 ay
 ay
@@ -1119,13 +1156,13 @@ bs
 ak
 ak
 ak
-ak
+fm
 bS
 aa
 "}
 (14,1,1) = {"
 aa
-ac
+PL
 al
 an
 an
@@ -1142,12 +1179,12 @@ bB
 bB
 bD
 bH
-ac
+PL
 aa
 "}
 (15,1,1) = {"
 aa
-ac
+PL
 am
 am
 ao
@@ -1163,13 +1200,13 @@ ac
 bC
 bH
 bH
-bv
+jj
 bT
 aa
 "}
 (16,1,1) = {"
 aa
-ac
+PL
 an
 aq
 au
@@ -1184,50 +1221,50 @@ aL
 aD
 bD
 bB
-bv
+jj
 bO
 bU
 bW
 "}
 (17,1,1) = {"
 aa
-ac
+PL
 ao
 an
 av
 aC
-ac
+PL
 aQ
 aQ
 aQ
 aQ
 aQ
 aQ
-ac
+PL
 bB
 bB
-bv
-bv
+jj
+jj
 bP
 aa
 "}
 (18,1,1) = {"
 aa
 af
-ak
-ak
-ak
-ak
+fm
+fm
+fm
+fm
 af
-aa
-aa
-aa
-aa
-aa
-aa
+Wm
+Wm
+Wm
+Wm
+Wm
+Wm
 bt
-ag
-ag
+eb
+eb
 bN
 bP
 aa

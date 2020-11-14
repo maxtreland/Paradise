@@ -226,6 +226,13 @@
 	icon_state = "floor5"
 	},
 /area/ruin/powered)
+"G" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/shuttle/floor{
+	tag = "icon-floor5";
+	icon_state = "floor5"
+	},
+/area/ruin/powered)
 
 (1,1,1) = {"
 a
@@ -324,7 +331,7 @@ k
 h
 h
 h
-h
+G
 h
 h
 h

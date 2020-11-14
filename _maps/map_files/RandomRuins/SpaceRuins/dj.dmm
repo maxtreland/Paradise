@@ -5,18 +5,18 @@
 "ab" = (
 /obj/structure/grille,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "ac" = (
 /obj/structure/grille{
 	density = 0;
 	icon_state = "brokengrille"
 	},
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "ad" = (
 /obj/structure/lattice,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "ae" = (
 /obj/machinery/power/solar/fake,
 /turf/simulated/floor/plasteel/airless{
@@ -49,7 +49,7 @@
 	},
 /obj/structure/lattice,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "ah" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -75,12 +75,12 @@
 	icon_state = "brokengrille"
 	},
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "ak" = (
 /obj/structure/lattice,
 /obj/structure/lattice,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "al" = (
 /obj/structure/cable{
 	d1 = 2;
@@ -817,7 +817,7 @@
 /obj/structure/lattice,
 /obj/structure/grille,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "bP" = (
 /obj/structure/mirror{
 	dir = 4;
@@ -934,6 +934,16 @@
 	req_access_txt = "0"
 	},
 /turf/template_noop,
+/area/djstation)
+"Jv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plating,
 /area/djstation)
 
 (1,1,1) = {"
@@ -1340,7 +1350,7 @@ ap
 av
 aA
 av
-aJ
+Jv
 aP
 ao
 aW

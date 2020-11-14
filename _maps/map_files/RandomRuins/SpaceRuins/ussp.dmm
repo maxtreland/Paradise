@@ -16,7 +16,7 @@
 /turf/simulated/floor/plasteel/airless{
 	icon_state = "solarpanel"
 	},
-/area/space/nearstation)
+/area/snowland/surface)
 "ac" = (
 /turf/template_noop,
 /area/template_noop)
@@ -25,41 +25,41 @@
 	amount = 2
 	},
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "ae" = (
 /obj/machinery/power/solar/fake,
 /turf/simulated/floor/plasteel/airless{
 	icon_state = "solarpanel"
 	},
-/area/space/nearstation)
+/area/snowland/surface)
 "af" = (
 /obj/structure/lattice/catwalk,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "ag" = (
 /obj/structure/lattice,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "ah" = (
 /obj/item/stack/cable_coil/cut{
 	amount = 1
 	},
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "ai" = (
 /obj/item/shard{
 	icon_state = "medium"
 	},
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "aj" = (
 /obj/item/shard,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "ak" = (
 /obj/item/stack/rods,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "al" = (
 /turf/simulated/wall/mineral/titanium/nodecon,
 /area/derelict/bridge)
@@ -456,6 +456,7 @@
 	},
 /area/derelict/bridge)
 "be" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
 /turf/simulated/floor/plasteel{
 	dir = 10;
 	icon_state = "darkblue"
@@ -1291,7 +1292,7 @@
 	icon_state = "small"
 	},
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "cS" = (
 /obj/structure/grille,
 /obj/structure/window/full/shuttle,
@@ -2106,8 +2107,8 @@
 	})
 "eA" = (
 /obj/machinery/atmospherics/unary/passive_vent,
-/turf/simulated/floor/plating/airless,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "eB" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/grown/peanuts,
@@ -3346,7 +3347,7 @@
 "gR" = (
 /mob/living/simple_animal/hostile/carp,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "gS" = (
 /obj/effect/landmark/damageturf,
 /obj/effect/decal/cleanable/dirt,
@@ -3594,7 +3595,7 @@
 "hq" = (
 /obj/item/stack/ore/uranium,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "hr" = (
 /obj/machinery/power/solar{
 	id = "russolar"
@@ -3999,14 +4000,14 @@
 "ig" = (
 /obj/effect/landmark/damageturf,
 /obj/structure/flora/rock/pile,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/derelict/eva{
 	name = "Derelict Annex"
 	})
 "ih" = (
 /obj/item/stack/ore/iron,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "ii" = (
 /turf/template_noop,
 /area/derelict/eva{
@@ -4081,7 +4082,7 @@
 "iq" = (
 /obj/item/stack/tile,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "ir" = (
 /obj/structure/grille,
 /obj/structure/shuttle/window{
@@ -4412,7 +4413,7 @@
 	icon_state = "remains";
 	name = "Human remains"
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/derelict/eva{
 	name = "Derelict Annex"
 	})
@@ -4557,6 +4558,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/decal/cleanable/blood/drip,
+/obj/effect/baseturf_helper/asteroid/snow_naga,
 /turf/simulated/floor/plasteel,
 /area/derelict/arrival)
 "jq" = (
@@ -4648,12 +4650,12 @@
 	})
 "jz" = (
 /obj/effect/landmark/damageturf,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/derelict/eva{
 	name = "Derelict Annex"
 	})
 "jA" = (
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/derelict/eva{
 	name = "Derelict Annex"
 	})
@@ -5096,14 +5098,14 @@
 	})
 "ko" = (
 /obj/item/stack/ore/iron,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/derelict/eva{
 	name = "Derelict Annex"
 	})
 "kp" = (
 /obj/effect/landmark/damageturf,
 /obj/item/stack/ore/slag,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/derelict/eva{
 	name = "Derelict Annex"
 	})
@@ -5312,6 +5314,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/baseturf_helper/asteroid/snow_naga,
 /turf/simulated/floor/plasteel{
 	icon_state = "wood"
 	},
@@ -6133,7 +6136,7 @@
 	})
 "mj" = (
 /obj/structure/flora/rock/pile,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/derelict/eva{
 	name = "Derelict Annex"
 	})
@@ -6150,7 +6153,7 @@
 /obj/effect/landmark/damageturf,
 /obj/structure/grille/broken,
 /obj/effect/spawner/lootdrop/maintenance,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/derelict/eva{
 	name = "Derelict Annex"
 	})
@@ -6267,7 +6270,7 @@
 	})
 "mA" = (
 /obj/item/stack/ore/slag,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/derelict/eva{
 	name = "Derelict Annex"
 	})
@@ -6441,7 +6444,7 @@
 /area/derelict/arrival)
 "mW" = (
 /obj/structure/flora/rock,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/derelict/eva{
 	name = "Derelict Annex"
 	})
@@ -6451,7 +6454,7 @@
 	icon_state = "medium"
 	},
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "mY" = (
 /obj/machinery/vending/cigarette/free{
 	slogan_list = list("Just remember! No capitalist.","Best enjoyed with Vodka!.","Smoke!","Nine out of ten USSP scientists agree, smoking reduces stress!","There's no cigarette like a Russian cigarette!","Cigarettes! Now with 100% less capitalism.")
@@ -6590,7 +6593,7 @@
 "nn" = (
 /obj/structure/flora/rock/pile,
 /obj/structure/grille/broken,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/derelict/eva{
 	name = "Derelict Annex"
 	})
@@ -6816,17 +6819,17 @@
 /turf/simulated/wall/mineral/titanium/nodecon/nosmooth{
 	icon_state = "swall_f10"
 	},
-/area/space/nearstation)
+/area/snowland/surface)
 "nM" = (
 /obj/item/stack/tile,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/derelict/eva{
 	name = "Derelict Annex"
 	})
 "nN" = (
 /obj/effect/landmark/damageturf,
 /obj/item/stack/ore/iron,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/derelict/eva{
 	name = "Derelict Annex"
 	})
@@ -6976,8 +6979,8 @@
 /obj/effect/landmark/damageturf,
 /obj/effect/landmark/burnturf,
 /obj/structure/grille/broken,
-/turf/simulated/floor/plating/airless,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "oe" = (
 /obj/effect/landmark/damageturf,
 /obj/effect/landmark/burnturf,
@@ -7530,7 +7533,7 @@
 /area/derelict/crew_quarters)
 "pk" = (
 /turf/simulated/wall/mineral/titanium/nodecon,
-/area/space/nearstation)
+/area/snowland/surface)
 "pl" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -7559,11 +7562,11 @@
 	},
 /area/derelict/crew_quarters)
 "po" = (
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/derelict/arrival)
 "pp" = (
 /obj/effect/landmark/damageturf,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/derelict/arrival)
 "pq" = (
 /obj/item/shard{
@@ -7782,7 +7785,7 @@
 "pQ" = (
 /obj/item/stack/sheet/metal,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "pR" = (
 /obj/item/shard,
 /turf/template_noop,
@@ -7875,7 +7878,7 @@
 /obj/item/stack/cable_coil/cut{
 	amount = 1
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/derelict/arrival)
 "qb" = (
 /obj/structure/cable{
@@ -8964,7 +8967,7 @@
 	max_amount = 30
 	},
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "sh" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -9132,6 +9135,63 @@
 	gpstag = "Russian Distress Signal"
 	},
 /turf/simulated/wall/mineral/titanium/nodecon/nodiagonal,
+/area/derelict/arrival)
+"yI" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plasteel,
+/area/derelict/eva{
+	name = "Derelict Annex"
+	})
+"Ng" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plasteel/airless{
+	icon_state = "floorscorched2"
+	},
+/area/derelict/arrival)
+"RQ" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plasteel,
+/area/derelict/eva{
+	name = "Derelict Annex"
+	})
+"VL" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/lattice/catwalk,
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/template_noop,
+/area/derelict/solar_control)
+"WX" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/lattice/catwalk,
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/template_noop,
+/area/derelict/solar_control)
+"Zk" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plasteel,
 /area/derelict/arrival)
 
 (1,1,1) = {"
@@ -11133,7 +11193,7 @@ mU
 pH
 nJ
 mS
-nl
+Ng
 qr
 qB
 aW
@@ -11749,7 +11809,7 @@ ga
 gu
 gQ
 fk
-eP
+yI
 eP
 id
 iC
@@ -12619,7 +12679,7 @@ sc
 se
 jx
 jx
-sj
+VL
 jx
 jx
 jx
@@ -13527,7 +13587,7 @@ ac
 ac
 fG
 qy
-hY
+Zk
 hY
 hY
 hY
@@ -13871,7 +13931,7 @@ eP
 eP
 jc
 jF
-fk
+RQ
 lh
 lF
 lU
@@ -15986,7 +16046,7 @@ hO
 hO
 hO
 jx
-jP
+WX
 kJ
 ls
 jx

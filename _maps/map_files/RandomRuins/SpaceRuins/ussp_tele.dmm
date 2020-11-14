@@ -4,27 +4,27 @@
 /area/template_noop)
 "b" = (
 /obj/structure/lattice,
-/turf/template_noop,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "c" = (
 /obj/item/stack/cable_coil/cut{
 	amount = 1
 	},
-/turf/template_noop,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "d" = (
 /obj/item/shard,
-/turf/template_noop,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "e" = (
 /obj/structure/lattice,
 /obj/item/shard{
 	icon_state = "small"
 	},
-/turf/template_noop,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "f" = (
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/airless,
 /area/derelict/teleporter)
 "g" = (
 /turf/simulated/wall,
@@ -42,7 +42,7 @@
 	density = 0;
 	icon_state = "brokengrille"
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/airless,
 /area/derelict/teleporter)
 "j" = (
 /turf/simulated/wall/rust,
@@ -53,21 +53,17 @@
 /area/derelict/teleporter)
 "l" = (
 /obj/item/rack_parts,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/airless,
 /area/derelict/teleporter)
 "m" = (
-/turf/simulated/floor/plasteel/airless{
-	icon_state = "floorgrime"
-	},
+/turf/simulated/floor/plasteel/dark,
 /area/derelict/teleporter)
 "n" = (
 /obj/effect/landmark/damageturf,
 /obj/item/shard{
 	icon_state = "small"
 	},
-/turf/simulated/floor/plasteel/airless{
-	icon_state = "floorgrime"
-	},
+/turf/simulated/floor/plasteel/dark,
 /area/derelict/teleporter)
 "o" = (
 /obj/machinery/light_construct/small{
@@ -75,10 +71,7 @@
 	},
 /obj/effect/landmark/damageturf,
 /obj/structure/filingcabinet/chestdrawer,
-/turf/simulated/floor/plasteel/airless{
-	dir = 8;
-	icon_state = "green"
-	},
+/turf/simulated/floor/plasteel/dark,
 /area/derelict/teleporter)
 "p" = (
 /obj/machinery/light_construct/small{
@@ -87,17 +80,12 @@
 /obj/machinery/atmospherics/unary/portables_connector{
 	layer = 2
 	},
-/turf/simulated/floor/plasteel/airless{
-	icon_state = "floorgrime"
-	},
+/turf/simulated/floor/plasteel/dark,
 /area/derelict/teleporter)
 "q" = (
 /obj/structure/table,
 /obj/item/clipboard,
-/turf/simulated/floor/plasteel/airless{
-	dir = 8;
-	icon_state = "green"
-	},
+/turf/simulated/floor/plasteel/dark,
 /area/derelict/teleporter)
 "r" = (
 /obj/machinery/computer/teleporter,
@@ -107,21 +95,17 @@
 /area/derelict/teleporter)
 "s" = (
 /obj/machinery/teleport/station,
-/turf/simulated/floor/plasteel/airless{
-	icon_state = "floorgrime"
-	},
+/turf/simulated/floor/plasteel/dark,
 /area/derelict/teleporter)
 "t" = (
 /obj/machinery/teleport/hub,
-/turf/simulated/floor/plasteel/airless{
-	icon_state = "floorgrime"
-	},
+/turf/simulated/floor/plasteel/dark,
 /area/derelict/teleporter)
 "u" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 5
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/airless,
 /area/derelict/teleporter)
 "v" = (
 /obj/structure/door_assembly/door_assembly_ext{
@@ -131,24 +115,19 @@
 /area/derelict/teleporter)
 "w" = (
 /obj/structure/lattice/catwalk,
-/turf/template_noop,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "x" = (
 /obj/structure/table,
 /obj/item/stock_parts/cell{
 	charge = 100;
 	maxcharge = 15000
 	},
-/turf/simulated/floor/plasteel/airless{
-	dir = 8;
-	icon_state = "green"
-	},
+/turf/simulated/floor/plasteel/dark,
 /area/derelict/teleporter)
 "y" = (
 /obj/effect/landmark/damageturf,
-/turf/simulated/floor/plasteel/airless{
-	icon_state = "floorgrime"
-	},
+/turf/simulated/floor/plasteel/dark,
 /area/derelict/teleporter)
 "z" = (
 /obj/effect/landmark/damageturf,
@@ -172,9 +151,19 @@
 	name = "Worn-out APC";
 	pixel_y = -24
 	},
-/turf/simulated/floor/plasteel/airless{
-	icon_state = "floorgrime"
-	},
+/turf/simulated/floor/plasteel/dark,
+/area/derelict/teleporter)
+"D" = (
+/obj/structure/girder,
+/turf/simulated/floor/plating/asteroid/snow/airless,
+/area/derelict/teleporter)
+"S" = (
+/obj/structure/girder,
+/turf/simulated/floor/plasteel/dark,
+/area/derelict/teleporter)
+"Y" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plasteel/dark,
 /area/derelict/teleporter)
 
 (1,1,1) = {"
@@ -325,7 +314,7 @@ b
 f
 j
 m
-m
+Y
 m
 m
 f
@@ -343,7 +332,7 @@ p
 u
 z
 g
-k
+D
 "}
 (13,1,1) = {"
 b
@@ -369,7 +358,7 @@ f
 b
 b
 f
-k
+S
 a
 a
 "}
@@ -383,7 +372,7 @@ f
 b
 b
 f
-k
+S
 a
 a
 "}

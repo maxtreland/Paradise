@@ -5,52 +5,52 @@
 "ab" = (
 /obj/structure/lattice,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "ac" = (
-/turf/simulated/floor/plating/airless,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "ad" = (
 /obj/structure/lattice,
 /obj/structure/grille/broken,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "ae" = (
 /obj/structure/lattice,
 /obj/structure/grille,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "af" = (
 /obj/structure/grille,
-/turf/simulated/floor/plating/airless,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "ag" = (
 /turf/simulated/wall/r_wall,
-/area/space/nearstation)
+/area/snowland/surface)
 "ah" = (
 /obj/structure/girder,
-/turf/simulated/floor/plating/airless,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "ai" = (
 /turf/simulated/wall/r_wall,
 /area/ruin/tcommsat)
 "aj" = (
 /obj/structure/girder,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "ak" = (
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "al" = (
 /obj/structure/window/reinforced{
 	dir = 4
 	},
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "am" = (
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "an" = (
 /obj/machinery/power/apc{
@@ -64,7 +64,7 @@
 	icon_state = "0-4";
 	d2 = 4
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "ao" = (
 /obj/machinery/light/small{
@@ -75,15 +75,15 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "ap" = (
 /obj/item/stock_parts/cell,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "aq" = (
 /obj/machinery/portable_atmospherics/canister/air,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "ar" = (
 /obj/item/coin/clown,
@@ -91,17 +91,17 @@
 /area/ruin/tcommsat)
 "as" = (
 /obj/structure/bed,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "at" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "au" = (
 /obj/effect/landmark/damageturf,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "av" = (
 /obj/structure/lattice,
@@ -109,7 +109,7 @@
 	dir = 4
 	},
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "aw" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -117,18 +117,18 @@
 	icon_state = "1-2";
 	pixel_y = 0
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "ax" = (
 /obj/item/wrench,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "ay" = (
 /obj/structure/window/reinforced{
 	dir = 4
 	},
 /obj/machinery/portable_atmospherics/canister/air,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "az" = (
 /obj/structure/lattice,
@@ -136,11 +136,11 @@
 	dir = 8
 	},
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "aA" = (
 /obj/structure/table,
 /obj/item/paper,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "aB" = (
 /obj/structure/table,
@@ -149,15 +149,15 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "aC" = (
 /obj/structure/computerframe,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "aD" = (
 /obj/structure/table,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "aE" = (
 /obj/item/reagent_containers/food/snacks/meat/syntiflesh{
@@ -167,28 +167,28 @@
 /area/ruin/tcommsat)
 "aF" = (
 /obj/structure/grille,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "aG" = (
 /obj/structure/grille/broken,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "aH" = (
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "aI" = (
 /obj/structure/window/reinforced,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "aJ" = (
 /obj/item/stack/cable_coil/cut{
 	amount = 1
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "aK" = (
 /obj/structure/window/reinforced,
@@ -196,26 +196,26 @@
 	dir = 4
 	},
 /obj/structure/closet,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "aL" = (
 /obj/structure/window/reinforced{
 	dir = 8
 	},
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "aM" = (
 /obj/item/folder/yellow,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "aN" = (
 /obj/structure/bed,
 /obj/effect/decal/remains/human,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "aO" = (
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "aP" = (
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
@@ -223,7 +223,7 @@
 	},
 /obj/structure/lattice,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "aQ" = (
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
@@ -234,7 +234,7 @@
 	},
 /obj/structure/lattice,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "aR" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -242,7 +242,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "aS" = (
 /obj/structure/window/reinforced,
@@ -250,18 +250,18 @@
 	dir = 8
 	},
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "aT" = (
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "aU" = (
 /obj/structure/window/reinforced,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "aV" = (
 /obj/structure/sign/securearea,
 /turf/simulated/wall/r_wall,
@@ -270,28 +270,28 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "aX" = (
 /obj/item/paper/crumpled,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "aY" = (
 /obj/structure/chair{
 	dir = 4
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "aZ" = (
 /obj/structure/table,
 /obj/item/storage/fancy/cigarettes,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "ba" = (
 /obj/structure/chair{
 	dir = 8
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bb" = (
 /obj/structure/window/reinforced{
@@ -300,14 +300,14 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bc" = (
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bd" = (
 /obj/structure/window/reinforced,
@@ -315,36 +315,36 @@
 	dir = 1
 	},
 /obj/item/airlock_electronics,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "be" = (
 /obj/structure/door_assembly/door_assembly_hatch,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bf" = (
 /obj/item/cigbutt,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bg" = (
 /obj/machinery/vending/snack,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bh" = (
 /obj/machinery/vending/cola,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bi" = (
 /obj/structure/chair{
 	dir = 1
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bj" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bk" = (
 /obj/structure/disposalpipe/segment{
@@ -356,21 +356,22 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/effect/baseturf_helper/asteroid/snow_naga,
 /turf/simulated/wall/r_wall,
-/area/space/nearstation)
+/area/snowland/surface)
 "bm" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /obj/structure/grille/broken,
-/turf/simulated/floor/plating/airless,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "bn" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/floor/plating/airless,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "bo" = (
 /obj/structure/disposaloutlet{
 	dir = 4
@@ -378,8 +379,8 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
-/turf/simulated/floor/plating/airless,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "bp" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -388,32 +389,32 @@
 	dir = 1
 	},
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "bq" = (
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /obj/structure/lattice,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "br" = (
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "bs" = (
 /obj/structure/table,
 /obj/item/radio/off,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bt" = (
 /obj/structure/chair,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bv" = (
 /obj/machinery/door/airlock/hatch,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bw" = (
 /obj/structure/window/reinforced{
@@ -421,7 +422,7 @@
 	},
 /obj/structure/lattice,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "bx" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -429,7 +430,7 @@
 /obj/item/shard{
 	icon_state = "medium"
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "by" = (
 /obj/structure/grille,
@@ -440,14 +441,14 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bz" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bA" = (
 /obj/structure/grille,
@@ -455,7 +456,7 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bB" = (
 /obj/structure/grille,
@@ -466,11 +467,11 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bC" = (
 /obj/machinery/door/airlock/maintenance_hatch,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bD" = (
 /obj/structure/window/reinforced{
@@ -479,7 +480,7 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bE" = (
 /obj/structure/window/reinforced{
@@ -487,7 +488,7 @@
 	},
 /obj/structure/lattice,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "bF" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -496,20 +497,20 @@
 	dir = 8
 	},
 /obj/item/stack/rods,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bG" = (
 /obj/item/stack/rods,
 /obj/item/shard{
 	icon_state = "medium"
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bH" = (
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bI" = (
 /obj/effect/spawner/window/reinforced{
@@ -522,7 +523,7 @@
 /obj/item/scalpel{
 	pixel_y = 12
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bK" = (
 /obj/structure/window/reinforced{
@@ -531,20 +532,20 @@
 /obj/item/shard{
 	icon_state = "medium"
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bL" = (
 /obj/structure/rack,
 /obj/item/circuitboard/teleporter,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bM" = (
 /obj/item/radio/off,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bN" = (
 /obj/effect/decal/cleanable/blood/oil,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bO" = (
 /obj/effect/decal/cleanable/blood,
@@ -552,60 +553,60 @@
 /obj/item/clothing/under/rank/centcom_officer,
 /obj/item/restraints/handcuffs,
 /obj/effect/decal/remains/human,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bP" = (
 /obj/structure/table,
 /obj/item/flashlight/lamp,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bQ" = (
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /obj/structure/window/reinforced,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bR" = (
 /obj/structure/door_assembly/door_assembly_mhatch,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bS" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bT" = (
 /obj/effect/decal/cleanable/blood,
 /obj/item/assembly/signaler,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bU" = (
 /obj/structure/table,
 /obj/item/reagent_containers/syringe/lethal{
 	pixel_y = 4
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bV" = (
 /obj/item/storage/toolbox/syndicate,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bW" = (
 /obj/structure/table,
 /obj/item/radio/electropack,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bX" = (
 /obj/structure/table,
 /obj/item/hemostat,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bY" = (
 /obj/structure/table,
 /obj/item/circular_saw,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "bZ" = (
 /obj/structure/window/reinforced{
@@ -615,7 +616,7 @@
 	dir = 4
 	},
 /obj/item/stack/rods,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "ca" = (
 /obj/structure/window/reinforced{
@@ -623,27 +624,27 @@
 	},
 /obj/structure/window/reinforced,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "cb" = (
 /obj/structure/window/reinforced,
 /obj/structure/lattice,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "cc" = (
 /obj/effect/decal/warning_stripes/northwest,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "cd" = (
 /obj/effect/decal/warning_stripes/northwestcorner,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "ce" = (
 /obj/effect/decal/warning_stripes/north,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "cf" = (
 /obj/effect/decal/warning_stripes/northeast,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "cg" = (
 /obj/structure/window/reinforced{
@@ -651,47 +652,47 @@
 	},
 /obj/structure/window/reinforced,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "ch" = (
 /obj/item/paper/crumpled,
 /obj/effect/decal/warning_stripes/west,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "ci" = (
 /obj/item/stack/rods,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "cj" = (
 /obj/effect/decal/warning_stripes/east,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "ck" = (
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "cl" = (
 /obj/effect/decal/warning_stripes/southwest,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "cm" = (
 /obj/machinery/light/small,
 /obj/item/paper,
 /obj/effect/decal/warning_stripes/southwestcorner,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "cn" = (
 /obj/effect/decal/warning_stripes/southeast,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "co" = (
 /obj/item/shard{
 	icon_state = "medium"
 	},
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "cp" = (
 /obj/structure/lattice,
 /obj/item/stack/rods,
@@ -699,19 +700,19 @@
 	icon_state = "medium"
 	},
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "cq" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /obj/structure/window/reinforced,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "cr" = (
 /obj/structure/grille/broken,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "cs" = (
 /obj/machinery/door/airlock/hatch,
 /turf/simulated/floor/plasteel,
@@ -764,7 +765,7 @@
 /area/ruin/tcommsat)
 "cE" = (
 /obj/structure/door_assembly/door_assembly_ext,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/tcommsat)
 "cF" = (
 /obj/machinery/door/airlock/external,
@@ -776,8 +777,8 @@
 /area/ruin/tcommsat)
 "cH" = (
 /obj/item/crowbar,
-/turf/simulated/floor/plating/airless,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "cI" = (
 /obj/structure/closet/crate,
 /obj/item/clothing/glasses/night,
@@ -824,6 +825,28 @@
 	gpstag = "Faint Radio Signal"
 	},
 /turf/simulated/wall/r_wall,
+/area/ruin/tcommsat)
+"jw" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/wall/r_wall,
+/area/ruin/tcommsat)
+"tE" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/simulated/wall/r_wall,
+/area/snowland/surface)
+"vL" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/ruin/tcommsat)
+"Nf" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/wall/r_wall,
+/area/snowland/surface)
+"No" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plasteel,
 /area/ruin/tcommsat)
 
 (1,1,1) = {"
@@ -1720,7 +1743,7 @@ ag
 ag
 ag
 ag
-ag
+Nf
 ag
 ag
 ag
@@ -2081,7 +2104,7 @@ br
 aa
 ab
 aa
-ag
+Nf
 ag
 ae
 ac
@@ -2524,7 +2547,7 @@ ag
 ai
 ai
 aA
-ak
+vL
 aX
 bf
 bt
@@ -2609,7 +2632,7 @@ cy
 cx
 cx
 cx
-cx
+No
 cL
 cP
 ai
@@ -2636,7 +2659,7 @@ ab
 ac
 aa
 ad
-ag
+Nf
 ai
 ai
 aC
@@ -2720,7 +2743,7 @@ ai
 ak
 ak
 ai
-ai
+jw
 ai
 ai
 cD
@@ -3396,7 +3419,7 @@ ah
 ag
 ag
 ag
-bl
+tE
 ag
 ag
 ag
@@ -3475,7 +3498,7 @@ aa
 ab
 ac
 ah
-ag
+Nf
 ag
 ae
 ae

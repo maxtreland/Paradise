@@ -860,13 +860,21 @@
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
 "ce" = (
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/ruin/unpowered)
+"gq" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plasteel,
 /area/ruin/unpowered)
 "mL" = (
 /obj/machinery/tcomms/relay/ruskie{
 	network_id = "STORAGE-RELAY"
 	},
 /turf/simulated/floor/plasteel,
+/area/ruin/unpowered)
+"LB" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/mineral/random/low_chance,
 /area/ruin/unpowered)
 
 (1,1,1) = {"
@@ -2779,7 +2787,7 @@ ar
 ar
 ac
 mL
-ar
+gq
 ar
 ar
 ar
@@ -4698,7 +4706,7 @@ ab
 ab
 ab
 ab
-ab
+LB
 ab
 ab
 ab
