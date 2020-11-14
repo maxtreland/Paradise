@@ -19,13 +19,17 @@
 /obj/item/pickaxe/diamond,
 /turf/simulated/floor/plating/asteroid/airless,
 /area/ruin/unpowered)
+"r" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plating/asteroid/airless,
+/area/ruin/unpowered)
 
 (1,1,1) = {"
 a
 a
 a
 a
-b
+r
 a
 a
 a
@@ -331,7 +335,7 @@ a
 (15,1,1) = {"
 a
 a
-b
+r
 a
 b
 c
@@ -348,7 +352,7 @@ b
 a
 a
 a
-b
+r
 "}
 (16,1,1) = {"
 a
@@ -357,7 +361,7 @@ a
 a
 b
 b
-b
+r
 c
 c
 c
@@ -421,7 +425,7 @@ a
 a
 a
 a
-b
+r
 a
 a
 a
@@ -431,11 +435,11 @@ a
 a
 a
 a
-b
+r
 a
 a
 a
-b
+r
 a
 "}
 (20,1,1) = {"

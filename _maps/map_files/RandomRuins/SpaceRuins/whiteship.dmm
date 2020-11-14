@@ -3,10 +3,10 @@
 /turf/template_noop,
 /area/template_noop)
 "ab" = (
-/turf/space,
-/turf/simulated/shuttle/wall{
-	icon_state = "swall_f6";
-	dir = 2
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/turf/simulated/shuttle/wall/interior{
+	tag = "icon-swall_f6";
+	icon_state = "swall_f6"
 	},
 /area/shuttle/abandoned)
 "ac" = (
@@ -66,10 +66,10 @@
 	},
 /area/shuttle/abandoned)
 "aj" = (
-/turf/space,
-/turf/simulated/shuttle/wall{
-	icon_state = "swall_f10";
-	dir = 2
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/turf/simulated/shuttle/wall/interior{
+	tag = "icon-swall_f10";
+	icon_state = "swall_f10"
 	},
 /area/shuttle/abandoned)
 "ak" = (
@@ -448,17 +448,17 @@
 	},
 /area/shuttle/abandoned)
 "bj" = (
-/turf/space,
-/turf/simulated/shuttle/wall{
-	icon_state = "swall_f9";
-	dir = 2
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/turf/simulated/shuttle/wall/interior{
+	tag = "icon-swall_f9";
+	icon_state = "swall_f9"
 	},
 /area/shuttle/abandoned)
 "bk" = (
-/turf/space,
-/turf/simulated/shuttle/wall{
-	icon_state = "swall_f5";
-	dir = 2
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/turf/simulated/shuttle/wall/interior{
+	tag = "icon-swall_f5";
+	icon_state = "swall_f5"
 	},
 /area/shuttle/abandoned)
 "bl" = (
@@ -617,6 +617,19 @@
 	icon_state = "floor3"
 	},
 /area/shuttle/abandoned)
+"AG" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/shuttle/floor{
+	icon_state = "floor3"
+	},
+/area/shuttle/abandoned)
+"VZ" = (
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/turf/simulated/shuttle/wall{
+	icon_state = "swall_f5";
+	dir = 2
+	},
+/area/shuttle/abandoned)
 
 (1,1,1) = {"
 aa
@@ -635,7 +648,7 @@ aR
 bl
 aE
 au
-bk
+VZ
 aa
 aa
 aa
@@ -707,7 +720,7 @@ bq
 bw
 by
 bC
-bk
+VZ
 aa
 "}
 (5,1,1) = {"
@@ -754,7 +767,7 @@ ad
 ae
 bD
 ai
-bk
+VZ
 "}
 (7,1,1) = {"
 ac
@@ -882,7 +895,7 @@ ae
 ac
 aS
 aY
-ae
+AG
 aS
 ac
 ae
@@ -1004,7 +1017,7 @@ aE
 au
 aH
 al
-bk
+VZ
 aa
 aa
 aa
@@ -1028,7 +1041,7 @@ ac
 av
 aB
 bA
-bk
+VZ
 aa
 aa
 "}
@@ -1052,7 +1065,7 @@ bv
 bx
 bB
 bA
-bk
+VZ
 aa
 "}
 (20,1,1) = {"
@@ -1076,7 +1089,7 @@ aq
 aq
 aq
 ai
-bk
+VZ
 "}
 (21,1,1) = {"
 aj

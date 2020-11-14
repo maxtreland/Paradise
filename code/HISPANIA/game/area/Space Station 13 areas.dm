@@ -12,3 +12,18 @@
 /area/shuttle/tsf
 	name = "TSF Discovery"
 	icon_state = "shuttle"
+
+/area/snowland
+	icon_state = "Naga"
+	has_gravity = TRUE
+
+/area/snowland/surface
+	name = "Naga Surface"
+	icon_state = "space"
+	always_unpowered = TRUE
+	requires_power = TRUE
+	poweralm = FALSE
+	power_environ = FALSE
+	power_equip = FALSE
+	power_light = FALSE
+	ambientsounds = MINING_SOUNDS

@@ -349,7 +349,7 @@
 	log_debug("Assigning space turf destinations...")
 	var/datum/space_level/D
 	var/datum/space_level/E
-	var/turf/space/S
+	var/turf/simulated/floor/plating/asteroid/snow/naga/S
 	var/list/levels_to_rebuild = unbuilt_space_transitions
 
 	if(force_all_rebuilds)
@@ -364,9 +364,11 @@
 		log_debug("Z level [D.zpos]")
 		switch(D.linkage)
 			if(UNAFFECTED)
+				/*
 				for(var/B in D.transit_west | D.transit_east | D.transit_south | D.transit_north)
 					S = B
 					S.remove_transitions()
+				*/
 			if(SELFLOOPING,CROSSLINKED)
 				// Left border
 				for(var/B in D.transit_west)

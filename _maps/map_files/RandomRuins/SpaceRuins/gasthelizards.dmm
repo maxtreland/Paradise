@@ -325,6 +325,10 @@
 "R" = (
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
+"V" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plasteel,
+/area/ruin/unpowered)
 
 (1,1,1) = {"
 a
@@ -493,7 +497,7 @@ c
 e
 j
 r
-t
+V
 t
 t
 I

@@ -3,20 +3,23 @@
 /turf/template_noop,
 /area/template_noop)
 "b" = (
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /turf/simulated/shuttle/wall{
-	tag = "icon-swall_s6";
-	icon_state = "swall_s6"
+	icon_state = "swall_f6";
+	dir = 2
 	},
 /area/ruin/powered)
 "c" = (
 /obj/structure/grille,
 /obj/structure/window/full/reinforced,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/powered)
 "d" = (
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /turf/simulated/shuttle/wall{
-	tag = "icon-swall_s10";
-	icon_state = "swall_s10"
+	dir = 2;
+	icon_state = "swall_f10";
+	layer = 2
 	},
 /area/ruin/powered)
 "e" = (
@@ -161,22 +164,22 @@
 	pixel_x = 7;
 	pixel_y = 8
 	},
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/powered)
 "C" = (
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/powered)
 "D" = (
 /obj/structure/lattice,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "E" = (
 /obj/item/stack/rods,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/powered)
 "F" = (
 /obj/effect/decal/cleanable/blood/gibs/robot,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/powered)
 "G" = (
 /obj/item/stack/tile/plasteel{
@@ -191,7 +194,7 @@
 /area/ruin/powered)
 "H" = (
 /obj/effect/landmark/damageturf,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/powered)
 "J" = (
 /obj/structure/mecha_wreckage/odysseus,
@@ -203,7 +206,7 @@
 "K" = (
 /obj/item/stack/sheet/metal,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "L" = (
 /obj/structure/mecha_wreckage/gygax,
 /turf/simulated/shuttle/floor{
@@ -213,7 +216,7 @@
 /area/ruin/powered)
 "M" = (
 /turf/unsimulated/floor/plating/airless,
-/area/space/nearstation)
+/area/snowland/surface)
 "N" = (
 /turf/simulated/shuttle/wall{
 	tag = "icon-swall14";
@@ -221,15 +224,16 @@
 	},
 /area/ruin/powered)
 "O" = (
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /turf/simulated/shuttle/wall{
-	tag = "icon-swall_s9";
-	icon_state = "swall_s9"
+	icon_state = "swall_f9";
+	dir = 2
 	},
 /area/ruin/powered)
 "P" = (
 /obj/item/stack/rods,
 /turf/template_noop,
-/area/space/nearstation)
+/area/snowland/surface)
 "Q" = (
 /turf/simulated/shuttle/wall{
 	tag = "icon-swall15";
@@ -245,6 +249,13 @@
 /turf/simulated/shuttle/wall{
 	tag = "icon-swall12";
 	icon_state = "swall12"
+	},
+/area/ruin/powered)
+"Z" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/shuttle/floor{
+	tag = "icon-floor3";
+	icon_state = "floor3"
 	},
 /area/ruin/powered)
 
@@ -355,7 +366,7 @@ c
 i
 n
 q
-r
+Z
 v
 t
 t
@@ -364,7 +375,7 @@ t
 t
 L
 q
-b
+Q
 R
 "}
 (8,1,1) = {"

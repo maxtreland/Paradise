@@ -9,7 +9,7 @@
 	icon_state = "swall_f6";
 	tag = "icon-swall_f6"
 	},
-/area/space/nearstation)
+/area/snowland/surface)
 "c" = (
 /obj/structure/shuttle/engine/heater{
 	tag = "icon-heater (NORTH)";
@@ -18,7 +18,7 @@
 	},
 /obj/structure/window/reinforced,
 /turf/simulated/shuttle/plating,
-/area/space/nearstation)
+/area/snowland/surface)
 "d" = (
 /turf/template_noop,
 /turf/simulated/shuttle/wall{
@@ -26,35 +26,35 @@
 	icon_state = "swall_f10";
 	dir = 2
 	},
-/area/space/nearstation)
+/area/snowland/surface)
 "e" = (
 /obj/machinery/door/unpowered/shuttle,
 /turf/simulated/floor/plasteel/airless,
-/area/space/nearstation)
+/area/snowland/surface)
 "f" = (
 /obj/item/broken_bottle,
 /obj/effect/mob_spawn/human/mime/corpse,
 /turf/simulated/floor/plasteel/airless,
-/area/space/nearstation)
+/area/snowland/surface)
 "g" = (
 /obj/item/shard,
 /obj/effect/mob_spawn/human/mime/corpse,
 /turf/simulated/floor/plasteel/airless,
-/area/space/nearstation)
+/area/snowland/surface)
 "h" = (
 /obj/item/shard{
 	icon_state = "medium"
 	},
 /obj/effect/mob_spawn/human/mime/corpse,
 /turf/simulated/floor/plasteel/airless,
-/area/space/nearstation)
+/area/snowland/surface)
 "i" = (
 /turf/simulated/shuttle/wall{
 	tag = "icon-swall11";
 	icon_state = "swall11";
 	dir = 2
 	},
-/area/space/nearstation)
+/area/snowland/surface)
 "j" = (
 /obj/structure/closet/crate,
 /obj/item/stack/ore/tranquillite,
@@ -66,35 +66,35 @@
 /obj/item/stack/ore/tranquillite,
 /obj/item/stack/ore/tranquillite,
 /turf/simulated/floor/plasteel/airless,
-/area/space/nearstation)
+/area/snowland/surface)
 "k" = (
 /turf/simulated/floor/plasteel/airless,
-/area/space/nearstation)
+/area/snowland/surface)
 "l" = (
 /turf/simulated/shuttle/wall{
 	icon_state = "swall7";
 	dir = 2
 	},
-/area/space/nearstation)
+/area/snowland/surface)
 "m" = (
 /turf/simulated/mineral,
-/area/space/nearstation)
+/area/snowland/surface)
 "n" = (
-/turf/simulated/floor/plating/asteroid/airless,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "o" = (
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /turf/simulated/shuttle/wall{
 	icon_state = "swall_f5";
 	dir = 2
 	},
-/area/space/nearstation)
+/area/snowland/surface)
 "p" = (
 /obj/item/shard{
 	icon_state = "small"
 	},
-/turf/simulated/floor/plating/asteroid/airless,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "q" = (
 /obj/structure/closet/crate,
 /obj/item/stack/ore/tranquillite,
@@ -105,7 +105,7 @@
 /obj/item/stack/ore/tranquillite,
 /obj/item/stack/ore/tranquillite,
 /turf/simulated/floor/plasteel/airless,
-/area/space/nearstation)
+/area/snowland/surface)
 "r" = (
 /turf/template_noop,
 /turf/simulated/shuttle/wall{
@@ -113,42 +113,42 @@
 	icon_state = "swall_f9";
 	dir = 2
 	},
-/area/space/nearstation)
+/area/snowland/surface)
 "s" = (
 /obj/item/shard,
-/turf/simulated/floor/plating/asteroid/airless,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "t" = (
 /obj/effect/mob_spawn/human/mime/corpse{
 	name = "Mime Pilot"
 	},
 /turf/simulated/floor/plasteel/airless,
-/area/space/nearstation)
+/area/snowland/surface)
 "u" = (
 /turf/simulated/shuttle/wall{
 	icon_state = "swall3";
 	dir = 2
 	},
-/area/space/nearstation)
+/area/snowland/surface)
 "v" = (
 /turf/simulated/shuttle/wall{
 	tag = "icon-swall12";
 	icon_state = "swall12";
 	dir = 2
 	},
-/area/space/nearstation)
+/area/snowland/surface)
 "w" = (
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /turf/simulated/shuttle/wall{
 	tag = "icon-swall_f9";
 	icon_state = "swall_f9";
 	dir = 2
 	},
-/area/space/nearstation)
+/area/snowland/surface)
 "x" = (
 /obj/effect/mob_spawn/human/clown/corpse,
 /turf/simulated/floor/plasteel/airless,
-/area/space/nearstation)
+/area/snowland/surface)
 "y" = (
 /obj/structure/closet/crate,
 /obj/item/stack/ore/bananium,
@@ -157,7 +157,7 @@
 /obj/item/stack/ore/bananium,
 /obj/item/stack/ore/bananium,
 /turf/simulated/floor/plasteel/airless,
-/area/space/nearstation)
+/area/snowland/surface)
 "z" = (
 /obj/structure/closet/crate{
 	icon_state = "crateopen";
@@ -166,7 +166,7 @@
 /obj/item/stack/ore/bananium,
 /obj/item/grenade/bananade,
 /turf/simulated/floor/plasteel/airless,
-/area/space/nearstation)
+/area/snowland/surface)
 "A" = (
 /obj/structure/shuttle/engine/heater{
 	tag = "icon-heater (EAST)";
@@ -177,7 +177,7 @@
 	dir = 8
 	},
 /turf/simulated/shuttle/plating,
-/area/space/nearstation)
+/area/snowland/surface)
 "B" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 4;
@@ -190,15 +190,15 @@
 	tag = "icon-burst_r (WEST)"
 	},
 /turf/simulated/shuttle/plating,
-/area/space/nearstation)
+/area/snowland/surface)
 "C" = (
 /obj/effect/mob_spawn/human/corpse/clownmili,
 /turf/simulated/floor/plasteel/airless,
-/area/space/nearstation)
+/area/snowland/surface)
 "D" = (
 /obj/item/stack/ore/bananium,
 /turf/simulated/floor/plasteel/airless,
-/area/space/nearstation)
+/area/snowland/surface)
 "E" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 4;
@@ -206,11 +206,11 @@
 	tag = "icon-propulsion_l (WEST)"
 	},
 /turf/simulated/shuttle/plating,
-/area/space/nearstation)
+/area/snowland/surface)
 "F" = (
 /obj/structure/computerframe/HONKputer,
 /turf/simulated/floor/plasteel/airless,
-/area/space/nearstation)
+/area/snowland/surface)
 "G" = (
 /obj/item/shard{
 	icon_state = "medium"
@@ -218,18 +218,18 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
-/turf/simulated/floor/plating/asteroid/airless,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "H" = (
 /obj/effect/mob_spawn/human/clown/corpse{
 	name = "Clown Pilot"
 	},
 /turf/simulated/floor/plasteel/airless,
-/area/space/nearstation)
+/area/snowland/surface)
 "I" = (
 /obj/item/paper/clownship,
 /turf/simulated/floor/plasteel/airless,
-/area/space/nearstation)
+/area/snowland/surface)
 "J" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced,
@@ -239,21 +239,21 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/simulated/floor/plating/airless,
-/area/space/nearstation)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "K" = (
 /obj/item/shard,
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
 /turf/simulated/floor/plasteel/airless,
-/area/space/nearstation)
+/area/snowland/surface)
 "L" = (
 /obj/item/shard{
 	icon_state = "medium"
 	},
 /turf/simulated/floor/plasteel/airless,
-/area/space/nearstation)
+/area/snowland/surface)
 "M" = (
 /turf/simulated/mineral/random/labormineral,
 /turf/simulated/shuttle/wall{
@@ -261,7 +261,7 @@
 	icon_state = "swall_f5";
 	dir = 2
 	},
-/area/space/nearstation)
+/area/snowland/surface)
 "N" = (
 /turf/simulated/floor/plasteel/airless,
 /turf/simulated/shuttle/wall{
@@ -269,15 +269,15 @@
 	icon_state = "swall_f10";
 	dir = 2
 	},
-/area/space/nearstation)
+/area/snowland/surface)
 "O" = (
 /obj/effect/mob_spawn/human/corpse/clownoff,
 /turf/simulated/floor/plasteel/airless,
-/area/space/nearstation)
+/area/snowland/surface)
 "P" = (
 /obj/item/pickaxe,
 /turf/simulated/floor/plasteel/airless,
-/area/space/nearstation)
+/area/snowland/surface)
 "Q" = (
 /obj/structure/closet/crate,
 /obj/item/stack/ore/bananium,
@@ -285,7 +285,7 @@
 /obj/item/stack/ore/bananium,
 /obj/item/stack/ore/bananium,
 /turf/simulated/floor/plasteel/airless,
-/area/space/nearstation)
+/area/snowland/surface)
 "R" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 4;
@@ -298,7 +298,11 @@
 	tag = "icon-propulsion_l (WEST)"
 	},
 /turf/simulated/shuttle/plating,
-/area/space/nearstation)
+/area/snowland/surface)
+"S" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/mineral,
+/area/snowland/surface)
 
 (1,1,1) = {"
 a
@@ -551,7 +555,7 @@ s
 n
 m
 m
-m
+S
 m
 m
 m

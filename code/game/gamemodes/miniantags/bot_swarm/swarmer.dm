@@ -262,7 +262,7 @@
 	var/isonshuttle = istype(get_area(src), /area/shuttle)
 	for(var/turf/T in range(1, src))
 		var/area/A = get_area(T)
-		if(isspaceturf(T) || (!isonshuttle && (istype(A, /area/shuttle) || istype(A, /area/space))) || (isonshuttle && !istype(A, /area/shuttle)))
+		if(isspaceturf(T) || (!isonshuttle && (istype(A, /area/shuttle) || istype(A, /area/space) || istype(A, /area/snowland/surface))) || (isonshuttle && !istype(A, /area/shuttle)))
 			to_chat(S, "<span class='warning'>Destroying this object has the potential to cause a hull breach. Aborting.</span>")
 			S.target = null
 			return FALSE
@@ -369,7 +369,7 @@
 	var/isonshuttle = istype(loc, /area/shuttle)
 	for(var/turf/T in range(1, src))
 		var/area/A = get_area(T)
-		if(isspaceturf(T) || (!isonshuttle && (istype(A, /area/shuttle) || istype(A, /area/space))) || (isonshuttle && !istype(A, /area/shuttle)))
+		if(isspaceturf(T) || (!isonshuttle && (istype(A, /area/shuttle) || istype(A, /area/space) || istype(A, /area/snowland/surface))) || (isonshuttle && !istype(A, /area/shuttle)))
 			to_chat(S, "<span class='warning'>Destroying this object has the potential to cause a hull breach. Aborting.</span>")
 			S.target = null
 			return TRUE
@@ -383,7 +383,7 @@
 	var/isonshuttle = istype(get_area(src), /area/shuttle)
 	for(var/turf/T in range(1, src))
 		var/area/A = get_area(T)
-		if(isspaceturf(T) || (!isonshuttle && (istype(A, /area/shuttle) || istype(A, /area/space))) || (isonshuttle && !istype(A, /area/shuttle)))
+		if(isspaceturf(T) || (!isonshuttle && (istype(A, /area/shuttle) || istype(A, /area/space) || istype(A, /area/snowland/surface))) || (isonshuttle && !istype(A, /area/shuttle)))
 			to_chat(S, "<span class='warning'>Destroying this object has the potential to cause a hull breach. Aborting.</span>")
 			S.target = null
 			return TRUE

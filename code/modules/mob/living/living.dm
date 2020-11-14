@@ -929,6 +929,17 @@
 	. = ..()
 	if(isturf(loc))
 		var/turf/T = loc
+		if(istype(src, /mob/living/carbon/human))
+			var/mob/living/carbon/human/H = src
+			if(isobj(H.shoes) && issnowproof(H.shoes))
+				switch(m_intent)
+					if(MOVE_INTENT_RUN)
+						if(drowsyness > 0)
+							. += 6
+						. += config.run_speed
+					if(MOVE_INTENT_WALK)
+						. += config.walk_speed
+				return
 		. += T.slowdown
 	if(slowed)
 		. += 10

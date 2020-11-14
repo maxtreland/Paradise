@@ -3,7 +3,7 @@
 /obj/item/stack/rods,
 /obj/item/stack/sheet/metal,
 /turf/template_noop,
-/area/space)
+/area/snowland/surface)
 "bb" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/sheet/mineral/plasma,
@@ -13,13 +13,13 @@
 "bk" = (
 /obj/structure/grille/broken,
 /turf/template_noop,
-/area/space)
+/area/snowland/surface)
 "cc" = (
 /obj/item/reagent_containers/food/snacks/syndicake,
 /obj/item/reagent_containers/food/snacks/syndicake,
 /obj/item/reagent_containers/food/snacks/syndicake,
 /turf/simulated/floor/plating,
-/area/space)
+/area/snowland/surface)
 "dy" = (
 /obj/structure/lattice,
 /turf/unsimulated,
@@ -59,7 +59,7 @@
 /turf/simulated/floor/plasteel,
 /area/ruin/unpowered)
 "ho" = (
-/turf/space,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/space)
 "hs" = (
 /turf/unsimulated/wall/fakeglass{
@@ -69,7 +69,7 @@
 "iK" = (
 /obj/item/stack/sheet/metal,
 /obj/item/stack/sheet/metal,
-/turf/space,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/space)
 "jf" = (
 /obj/item/trash/syndi_cakes,
@@ -78,7 +78,7 @@
 "jv" = (
 /obj/item/stack/cable_coil/cut,
 /turf/template_noop,
-/area/space)
+/area/snowland/surface)
 "jR" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/fancy/cigarettes/cigpack_random,
@@ -86,13 +86,13 @@
 /area/ruin/unpowered)
 "ke" = (
 /obj/structure/lattice,
-/turf/space,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin)
 "kh" = (
 /obj/structure/lattice,
 /obj/item/stack/rods,
 /turf/template_noop,
-/area/space)
+/area/snowland/surface)
 "ky" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -105,7 +105,7 @@
 "ls" = (
 /obj/structure/lattice,
 /turf/template_noop,
-/area/space)
+/area/snowland/surface)
 "lK" = (
 /obj/machinery/power/apc/noalarm{
 	area = null;
@@ -127,18 +127,18 @@
 /area/ruin/unpowered)
 "mc" = (
 /obj/structure/grille/broken,
-/turf/space,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/space)
 "mx" = (
 /obj/item/trash/syndi_cakes,
 /turf/template_noop,
-/area/space)
+/area/snowland/surface)
 "nV" = (
 /obj/machinery/conveyor/east{
 	id = null
 	},
 /turf/simulated/floor/plasteel,
-/area/space)
+/area/snowland/surface)
 "ob" = (
 /obj/structure/lattice,
 /turf/template_noop,
@@ -151,11 +151,11 @@
 /obj/item/reagent_containers/food/snacks/syndicake,
 /obj/item/reagent_containers/food/snacks/syndicake,
 /turf/simulated/floor/plasteel,
-/area/space)
+/area/snowland/surface)
 "oJ" = (
 /obj/item/stack/rods,
 /turf/template_noop,
-/area/space)
+/area/snowland/surface)
 "oO" = (
 /obj/machinery/door/airlock/mining/glass{
 	name = "Nexus"
@@ -165,13 +165,13 @@
 "pb" = (
 /obj/structure/lattice/catwalk,
 /turf/template_noop,
-/area/space)
+/area/snowland/surface)
 "pd" = (
 /turf/template_noop,
-/area/space)
+/area/snowland/surface)
 "pp" = (
 /turf/unsimulated,
-/area/space)
+/area/snowland/surface)
 "pR" = (
 /obj/machinery/conveyor/northeast{
 	id = null
@@ -193,7 +193,7 @@
 /area/ruin/unpowered)
 "rJ" = (
 /obj/structure/lattice,
-/turf/space,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/space)
 "rL" = (
 /obj/item/reagent_containers/food/snacks/syndicake,
@@ -205,14 +205,22 @@
 /area/ruin/unpowered)
 "sd" = (
 /turf/simulated/floor/plating,
-/area/space)
+/area/snowland/surface)
 "sN" = (
 /turf/simulated/floor/plasteel,
 /area/ruin/unpowered)
 "ub" = (
 /obj/item/stack/rods,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
+"uq" = (
+/obj/machinery/conveyor/east{
+	dir = 2;
+	id = null
+	},
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plasteel,
+/area/ruin)
 "uA" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/food/snacks/syndicake,
@@ -234,12 +242,16 @@
 /area/ruin/unpowered)
 "xT" = (
 /turf/unsimulated/floor/plating/airless,
-/area/space)
+/area/snowland/surface)
+"yd" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plasteel,
+/area/ruin/unpowered)
 "yU" = (
 /obj/item/stack/sheet/metal,
 /obj/item/stack/sheet/metal,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "zd" = (
 /obj/machinery/power/apc/noalarm{
 	area = null;
@@ -258,11 +270,11 @@
 /area/ruin/unpowered)
 "zo" = (
 /turf/simulated/wall,
-/area/space)
+/area/snowland/surface)
 "zt" = (
 /obj/item/stack/sheet/metal,
 /turf/template_noop,
-/area/space)
+/area/snowland/surface)
 "zF" = (
 /turf/unsimulated/wall/fakeglass{
 	dir = 8
@@ -273,6 +285,7 @@
 	dir = 4
 	},
 /obj/random/tool,
+/obj/effect/baseturf_helper/asteroid/snow_naga,
 /turf/simulated/floor/plasteel,
 /area/ruin/unpowered)
 "zY" = (
@@ -288,7 +301,7 @@
 "AJ" = (
 /obj/effect/spawner/random_spawners/wall_rusted_probably,
 /turf/simulated/wall,
-/area/space)
+/area/snowland/surface)
 "BG" = (
 /obj/machinery/door/airlock/mining/glass{
 	locked = 1;
@@ -314,13 +327,13 @@
 /turf/template_noop,
 /area/template_noop)
 "Da" = (
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "Dz" = (
-/mob/living/simple_animal/pet/dog/corgi,
 /obj/machinery/conveyor/east{
 	id = null
 	},
+/mob/living/simple_animal/pet/dog/corgi,
 /turf/simulated/floor/plasteel,
 /area/ruin/unpowered)
 "Ej" = (
@@ -353,11 +366,11 @@
 /turf/simulated/floor/plasteel,
 /area/ruin/unpowered)
 "Hx" = (
-/mob/living/simple_animal/pet/dog/corgi,
-/mob/living/simple_animal/pet/dog/corgi,
 /obj/machinery/conveyor/east{
 	id = null
 	},
+/mob/living/simple_animal/pet/dog/corgi,
+/mob/living/simple_animal/pet/dog/corgi,
 /turf/simulated/floor/plasteel,
 /area/ruin/unpowered)
 "Hy" = (
@@ -376,7 +389,7 @@
 /area/ruin/unpowered)
 "IB" = (
 /obj/structure/lattice,
-/turf/space,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "JI" = (
 /obj/effect/spawner/random_spawners/syndicate/loot,
@@ -420,16 +433,20 @@
 /area/ruin/unpowered)
 "NQ" = (
 /obj/structure/lattice,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
+"Oh" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/template_noop,
+/area/snowland/surface)
 "OA" = (
 /obj/structure/computerframe,
 /turf/simulated/floor/plasteel,
 /area/ruin/unpowered)
 "OK" = (
 /obj/item/reagent_containers/food/snacks/syndicake,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "OU" = (
 /turf/simulated/floor/plasteel/airless,
 /area/ruin)
@@ -521,6 +538,7 @@
 	icon_state = "1-4";
 	tag = "90Curve"
 	},
+/obj/effect/baseturf_helper/asteroid/snow_naga,
 /turf/simulated/floor/plasteel,
 /area/ruin/unpowered)
 "Uq" = (
@@ -537,8 +555,8 @@
 /area/ruin/unpowered)
 "UR" = (
 /obj/item/trash/syndi_cakes,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "Vf" = (
 /obj/machinery/light{
 	dir = 8
@@ -554,14 +572,14 @@
 "VH" = (
 /obj/structure/lattice,
 /obj/random/tool,
-/turf/space,
-/area/space)
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "VR" = (
 /obj/structure/lattice,
 /turf/unsimulated,
-/area/space)
+/area/snowland/surface)
 "WL" = (
-/turf/space,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "Xd" = (
 /obj/structure/cable{
@@ -600,7 +618,7 @@
 	id = null
 	},
 /turf/simulated/floor/plasteel,
-/area/space)
+/area/snowland/surface)
 
 (1,1,1) = {"
 Hy
@@ -1207,7 +1225,7 @@ wB
 EJ
 IB
 sN
-sN
+yd
 sN
 sN
 sN
@@ -1588,7 +1606,7 @@ bk
 NQ
 QF
 QF
-QF
+uq
 QF
 Da
 sd
@@ -1886,7 +1904,7 @@ pd
 pd
 pd
 ls
-pd
+Oh
 pd
 oJ
 pd

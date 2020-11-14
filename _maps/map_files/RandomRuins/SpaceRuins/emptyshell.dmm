@@ -25,7 +25,7 @@
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
 "h" = (
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/ruin/unpowered)
 "i" = (
 /obj/machinery/door/airlock,
@@ -33,6 +33,10 @@
 /area/ruin/unpowered)
 "j" = (
 /obj/item/stack/cable_coil,
+/turf/simulated/floor/plating,
+/area/ruin/unpowered)
+"I" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
 /turf/simulated/floor/plating,
 /area/ruin/unpowered)
 
@@ -178,7 +182,7 @@ b
 c
 c
 d
-d
+I
 d
 d
 d

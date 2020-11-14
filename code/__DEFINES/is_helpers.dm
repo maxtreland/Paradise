@@ -94,3 +94,6 @@ GLOBAL_LIST_INIT(glass_sheet_types, typecacheof(list(
 #define isradio(A) istype(A, /obj/item/radio)
 #define ispill(A) istype(A, /obj/item/reagent_containers/food/pill)
 
+//Hispania Helpers
+
+#define issnowproof(A) (istype(A, /obj/item/clothing/shoes/winterboots) || istype(A, /obj/item/clothing/shoes/magboots) || istype(A, /obj/item/clothing/shoes/jackboots))

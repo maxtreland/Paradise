@@ -24,7 +24,7 @@ SUBSYSTEM_DEF(mapping)
 		// Note that this budget is not split evenly accross all zlevels
 		log_startup_progress("Seeding ruins...")
 		var/seed_ruins_timer = start_watch()
-		seedRuins(levels_by_trait(SPAWN_RUINS), rand(20, 30), /area/space, GLOB.space_ruins_templates)
+		seedRuins(levels_by_trait(SPAWN_RUINS), rand(20, 30), /area/snowland/surface, GLOB.space_ruins_templates)
 		log_startup_progress("Successfully seeded ruins in [stop_watch(seed_ruins_timer)]s.")
 
 	// Makes a blank space level for the sake of randomness
@@ -66,7 +66,7 @@ SUBSYSTEM_DEF(mapping)
 	return ..()
 
 
-/datum/controller/subsystem/mapping/proc/seedRuins(list/z_levels = null, budget = 0, whitelist = /area/space, list/potentialRuins)
+/datum/controller/subsystem/mapping/proc/seedRuins(list/z_levels = null, budget = 0, whitelist = /area/snowland/surface, list/potentialRuins)
 	if(!z_levels || !z_levels.len)
 		WARNING("No Z levels provided - Not generating ruins")
 		return

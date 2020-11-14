@@ -21,7 +21,7 @@
 	},
 /area/syndicate_depot/outer)
 "af" = (
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/syndicate_depot/outer)
 "ag" = (
 /obj/effect/decal/cleanable/cobweb,
@@ -63,25 +63,25 @@
 /obj/effect/landmark{
 	name = "syndi_depot_bot"
 	},
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/syndicate_depot/outer)
 "an" = (
 /obj/machinery/navbeacon/invisible{
 	codes_txt = "patrol;next_patrol=SDNW";
 	location = "SDNE"
 	},
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/syndicate_depot/outer)
 "ao" = (
 /turf/simulated/wall,
 /area/syndicate_depot/outer)
 "ap" = (
 /obj/effect/spawner/random_spawners/syndicate/turret/external,
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/syndicate_depot/outer)
 "aq" = (
 /obj/machinery/light,
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/syndicate_depot/outer)
 "ar" = (
 /obj/structure/table,
@@ -104,7 +104,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/syndicate_depot/outer)
 "av" = (
 /obj/structure/falsewall,
@@ -293,13 +293,13 @@
 	codes_txt = "patrol;next_patrol=SDSW";
 	location = "SDNW"
 	},
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/syndicate_depot/outer)
 "aV" = (
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/syndicate_depot/outer)
 "aW" = (
 /obj/machinery/light{
@@ -759,7 +759,7 @@
 "cg" = (
 /obj/structure/falsewall,
 /obj/structure/fans/tiny,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/syndicate_depot/outer)
 "ch" = (
 /obj/structure/sign/poster/official/state_laws,
@@ -844,7 +844,7 @@
 /area/syndicate_depot/core)
 "cs" = (
 /obj/effect/spawner/random_spawners/blood_maybe,
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/syndicate_depot/outer)
 "ct" = (
 /obj/structure/sign/poster/contraband/missing_gloves,
@@ -965,13 +965,13 @@
 "cF" = (
 /obj/item/candle,
 /obj/structure/table,
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/syndicate_depot/outer)
 "cG" = (
 /obj/structure/chair{
 	dir = 8
 	},
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/syndicate_depot/outer)
 "cH" = (
 /obj/machinery/light,
@@ -1020,7 +1020,7 @@
 	dir = 1;
 	on = 1
 	},
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/syndicate_depot/outer)
 "cN" = (
 /obj/structure/sign/poster/official/obey,
@@ -1148,7 +1148,7 @@
 	codes_txt = "patrol;next_patrol=SDSE";
 	location = "SDSW"
 	},
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/syndicate_depot/outer)
 "dd" = (
 /obj/machinery/light/small{
@@ -1165,14 +1165,14 @@
 	pixel_x = 24
 	},
 /obj/structure/cable,
-/turf/simulated/floor/plating/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/syndicate_depot/outer)
 "df" = (
 /obj/machinery/navbeacon/invisible{
 	codes_txt = "patrol;next_patrol=SDNE";
 	location = "SDSE"
 	},
-/turf/simulated/floor/plating/asteroid/airless,
+/turf/simulated/floor/plating/asteroid/snow/naga,
 /area/syndicate_depot/outer)
 "dg" = (
 /obj/item/gps/ruin{
@@ -1180,6 +1180,29 @@
 	},
 /turf/simulated/wall/mineral/plastitanium/nodiagonal,
 /area/syndicate_depot/core)
+"nM" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/syndicate_depot/outer)
+"xH" = (
+/obj/item/stack/sheet/metal{
+	layer = 4.1
+	},
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/syndicate_depot/core)
+"zV" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/template_noop,
+/area/syndicate_depot/outer)
+"JC" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/template_noop,
+/area/syndicate_depot/perimeter)
 
 (1,1,1) = {"
 aa
@@ -1550,7 +1573,7 @@ ac
 ac
 ac
 ac
-ac
+zV
 ac
 ad
 ad
@@ -2168,7 +2191,7 @@ ao
 ad
 aI
 aN
-aN
+xH
 aD
 at
 bc
@@ -3397,7 +3420,7 @@ ad
 bf
 bl
 aj
-aj
+nM
 bI
 bT
 cg
@@ -3783,7 +3806,7 @@ ac
 aa
 "}
 (52,1,1) = {"
-aa
+JC
 ac
 ac
 ac
