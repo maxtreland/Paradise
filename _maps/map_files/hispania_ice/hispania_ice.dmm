@@ -98328,6 +98328,10 @@
 	icon_state = "darkred"
 	},
 /area/shuttle/escape)
+"nvu" = (
+/obj/structure/flora/tree/blue_light_naga,
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "nwC" = (
 /turf/simulated/floor/plasteel{
 	icon_state = "bot";
@@ -99581,6 +99585,10 @@
 /obj/machinery/portable_atmospherics/scrubber,
 /turf/simulated/floor/plating,
 /area/maintenance/fpmaint)
+"taY" = (
+/obj/structure/flora/bush/naga_eye_yellow,
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "tcb" = (
 /obj/effect/baseturf_helper/asteroid/snow_naga,
 /turf/simulated/floor/plasteel{
@@ -99854,6 +99862,10 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/maintenance/snowbunker)
+"tYv" = (
+/obj/structure/flora/bush/snowgrass_naga,
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "tZm" = (
 /obj/effect/decal/cleanable/blood,
 /obj/machinery/computer{
@@ -99981,6 +99993,10 @@
 	icon_state = "floorgrime"
 	},
 /area/security/armoury)
+"uzd" = (
+/obj/structure/flora/bush/naga_bush,
+/turf/simulated/floor/plating/asteroid/snow/naga,
+/area/snowland/surface)
 "uzp" = (
 /obj/structure/beebox,
 /turf/simulated/floor/plasteel{
@@ -104507,7 +104523,7 @@ brm
 brm
 brm
 brm
-brm
+tYv
 brm
 brm
 brm
@@ -105031,7 +105047,7 @@ brm
 brm
 brm
 brm
-brm
+taY
 brm
 brm
 brm
@@ -106069,7 +106085,7 @@ brm
 brm
 brm
 brm
-brm
+uzd
 brm
 brm
 brm
@@ -106084,7 +106100,7 @@ brm
 brm
 tTF
 brm
-brm
+nvu
 brm
 brm
 brm
@@ -106315,7 +106331,7 @@ brm
 brm
 brm
 brm
-brm
+uzd
 brm
 brm
 brm
@@ -106929,7 +106945,7 @@ brm
 brm
 brm
 brm
-brm
+uzd
 brm
 xWz
 brm
@@ -107071,7 +107087,7 @@ brm
 brm
 brm
 brm
-brm
+taY
 brm
 brm
 brm
@@ -108147,7 +108163,7 @@ brm
 brm
 brm
 brm
-brm
+uzd
 brm
 brm
 brm
@@ -108356,6 +108372,7 @@ brm
 brm
 brm
 brm
+tYv
 brm
 brm
 brm
@@ -108372,8 +108389,7 @@ brm
 brm
 brm
 brm
-brm
-brm
+uzd
 brm
 brm
 brm
@@ -108625,7 +108641,7 @@ brm
 brm
 brm
 brm
-brm
+uzd
 brm
 brm
 brm
@@ -108871,7 +108887,7 @@ brm
 brm
 brm
 brm
-brm
+uzd
 brm
 brm
 brm
@@ -109144,7 +109160,7 @@ brm
 brm
 brm
 brm
-brm
+uzd
 brm
 brm
 brm
@@ -109492,7 +109508,7 @@ brm
 brm
 brm
 brm
-brm
+uzd
 brm
 brm
 brm
@@ -110432,7 +110448,7 @@ brm
 brm
 brm
 brm
-brm
+uzd
 brm
 brm
 aJS
@@ -111191,7 +111207,7 @@ brm
 brm
 brm
 brm
-brm
+uzd
 brm
 brm
 brm
@@ -112324,6 +112340,7 @@ brm
 brm
 brm
 brm
+uzd
 brm
 brm
 brm
@@ -112331,8 +112348,7 @@ brm
 brm
 brm
 brm
-brm
-brm
+uzd
 brm
 brm
 brm
@@ -112980,7 +112996,7 @@ brm
 brm
 brm
 brm
-brm
+uzd
 brm
 aad
 aad
@@ -119553,7 +119569,7 @@ brm
 brm
 brm
 brm
-brm
+tYv
 brm
 brm
 brm
@@ -119800,7 +119816,7 @@ brm
 brm
 xWz
 brm
-brm
+tYv
 brm
 brm
 brm
@@ -121053,7 +121069,7 @@ brm
 aOp
 brm
 brm
-brm
+uzd
 brm
 brm
 bgo
@@ -121087,8 +121103,8 @@ brm
 brm
 brm
 brm
-brm
-brm
+tYv
+tYv
 brm
 brm
 brm
@@ -121433,7 +121449,7 @@ brm
 brm
 brm
 brm
-brm
+nvu
 brm
 brm
 brm
@@ -122109,7 +122125,7 @@ brm
 brm
 brm
 brm
-brm
+tYv
 brm
 brm
 brm
@@ -122871,7 +122887,7 @@ brm
 brm
 brm
 brm
-brm
+nvu
 brm
 brm
 brm
@@ -123405,7 +123421,7 @@ brm
 brm
 brm
 brm
-brm
+tYv
 brm
 brm
 brm
@@ -123634,6 +123650,7 @@ brm
 brm
 brm
 brm
+uzd
 brm
 brm
 brm
@@ -123653,8 +123670,7 @@ brm
 brm
 brm
 brm
-brm
-brm
+nvu
 brm
 brm
 brm
@@ -124658,6 +124674,7 @@ brm
 brm
 brm
 brm
+uzd
 brm
 brm
 brm
@@ -124694,8 +124711,7 @@ brm
 brm
 brm
 brm
-brm
-brm
+tYv
 brm
 brm
 brm
@@ -124952,7 +124968,7 @@ brm
 brm
 brm
 brm
-brm
+tYv
 brm
 brm
 brm
@@ -126489,7 +126505,7 @@ brm
 brm
 brm
 brm
-brm
+nvu
 brm
 brm
 brm
@@ -126998,7 +127014,7 @@ brm
 brm
 brm
 brm
-brm
+tYv
 brm
 brm
 brm
@@ -139424,7 +139440,7 @@ brm
 brm
 brm
 brm
-brm
+nvu
 brm
 brm
 brm
@@ -139964,7 +139980,7 @@ brm
 brm
 brm
 brm
-brm
+uzd
 brm
 brm
 tTF
@@ -140103,7 +140119,7 @@ brm
 brm
 brm
 brm
-brm
+uzd
 brm
 brm
 brm
@@ -141240,7 +141256,7 @@ brm
 brm
 brm
 brm
-brm
+uzd
 brm
 brm
 brm
@@ -141387,7 +141403,7 @@ brm
 brm
 brm
 brm
-brm
+nvu
 brm
 brm
 brm
@@ -142263,7 +142279,7 @@ brm
 brm
 brm
 brm
-brm
+uzd
 brm
 brm
 brm
@@ -142921,7 +142937,7 @@ cBP
 cBP
 bgo
 brm
-brm
+uzd
 brm
 brm
 brm
@@ -143694,6 +143710,7 @@ brm
 brm
 brm
 brm
+uzd
 brm
 brm
 brm
@@ -143704,8 +143721,7 @@ brm
 brm
 brm
 brm
-brm
-brm
+uzd
 brm
 brm
 brm
@@ -145120,7 +145136,7 @@ brm
 bgo
 bgo
 adw
-brm
+uzd
 brm
 aGX
 aDq
@@ -145610,7 +145626,7 @@ brm
 brm
 brm
 brm
-brm
+uzd
 brm
 brm
 brm
@@ -145876,7 +145892,7 @@ brm
 brm
 brm
 brm
-brm
+uzd
 brm
 abA
 bgo
@@ -145991,7 +146007,7 @@ cBR
 xWz
 brm
 brm
-brm
+nvu
 brm
 bZZ
 euD
@@ -147687,7 +147703,7 @@ brm
 brm
 brm
 brm
-brm
+uzd
 brm
 aAg
 aBc
@@ -148968,7 +148984,7 @@ brm
 brm
 brm
 brm
-brm
+uzd
 brm
 brm
 brm
@@ -150256,7 +150272,7 @@ brm
 brm
 brm
 brm
-brm
+uzd
 brm
 brm
 brm
@@ -153423,7 +153439,7 @@ brm
 brm
 brm
 brm
-brm
+uzd
 aZD
 brm
 brm
@@ -153844,7 +153860,7 @@ brm
 brm
 brm
 brm
-brm
+xWz
 brm
 brm
 brm
@@ -154368,7 +154384,7 @@ brm
 brm
 brm
 brm
-brm
+xWz
 brm
 brm
 brm
@@ -154511,15 +154527,15 @@ brm
 brm
 brm
 brm
+tYv
+tYv
 brm
 brm
 brm
 brm
 brm
-brm
-brm
-brm
-brm
+tYv
+tYv
 brm
 brm
 brm
@@ -154618,7 +154634,7 @@ brm
 brm
 brm
 brm
-brm
+xWz
 brm
 brm
 brm
@@ -154708,7 +154724,7 @@ brm
 brm
 brm
 brm
-brm
+nvu
 aZD
 brm
 brm
@@ -154766,6 +154782,9 @@ brm
 brm
 brm
 brm
+tYv
+tYv
+tYv
 brm
 brm
 brm
@@ -154773,11 +154792,8 @@ brm
 brm
 brm
 brm
-brm
-brm
-brm
-brm
-brm
+tYv
+tYv
 brm
 brm
 brm
@@ -154970,7 +154986,7 @@ aZD
 brm
 brm
 brm
-brm
+nvu
 brm
 brm
 abP
@@ -155798,7 +155814,7 @@ brm
 brm
 brm
 brm
-brm
+tYv
 brm
 brm
 brm
@@ -156564,6 +156580,7 @@ brm
 brm
 brm
 brm
+tYv
 brm
 brm
 brm
@@ -156578,8 +156595,7 @@ brm
 brm
 brm
 brm
-brm
-brm
+tYv
 brm
 brm
 brm
@@ -156706,7 +156722,7 @@ brm
 brm
 brm
 brm
-brm
+tYv
 brm
 brm
 brm
@@ -156821,6 +156837,7 @@ brm
 brm
 brm
 brm
+tYv
 brm
 brm
 brm
@@ -156835,8 +156852,7 @@ brm
 brm
 brm
 brm
-brm
-brm
+tYv
 brm
 brm
 brm
@@ -157078,6 +157094,7 @@ brm
 brm
 brm
 brm
+tYv
 brm
 brm
 brm
@@ -157092,8 +157109,7 @@ brm
 brm
 brm
 brm
-brm
-brm
+tYv
 brm
 brm
 brm
@@ -157335,6 +157351,7 @@ brm
 brm
 brm
 brm
+tYv
 brm
 brm
 brm
@@ -157348,8 +157365,7 @@ brm
 brm
 brm
 brm
-brm
-brm
+tYv
 brm
 brm
 brm
@@ -157592,7 +157608,7 @@ brm
 brm
 brm
 brm
-brm
+tYv
 brm
 brm
 brm
@@ -157849,7 +157865,7 @@ brm
 brm
 brm
 brm
-brm
+tYv
 brm
 brm
 brm
@@ -158106,7 +158122,7 @@ brm
 brm
 brm
 brm
-brm
+tYv
 brm
 brm
 brm
@@ -158363,7 +158379,7 @@ brm
 brm
 brm
 brm
-brm
+tYv
 brm
 brm
 brm
@@ -158479,7 +158495,7 @@ brm
 brm
 brm
 brm
-brm
+xWz
 brm
 brm
 brm
@@ -158620,7 +158636,7 @@ brm
 brm
 brm
 brm
-brm
+tYv
 brm
 brm
 brm
@@ -158746,7 +158762,7 @@ brm
 brm
 brm
 brm
-brm
+nvu
 brm
 brm
 brm
@@ -158884,7 +158900,7 @@ brm
 brm
 brm
 brm
-brm
+tYv
 brm
 brm
 brm
@@ -158984,7 +159000,7 @@ brm
 brm
 brm
 brm
-brm
+xWz
 brm
 brm
 brm
@@ -159139,9 +159155,9 @@ brm
 brm
 brm
 brm
-brm
-brm
-brm
+tYv
+tYv
+tYv
 brm
 brm
 brm
@@ -159278,8 +159294,8 @@ brm
 brm
 brm
 brm
-brm
-brm
+tYv
+xWz
 brm
 brm
 brm
@@ -159395,8 +159411,8 @@ brm
 brm
 brm
 brm
-brm
-brm
+tYv
+tYv
 brm
 brm
 brm
@@ -159543,7 +159559,7 @@ brm
 brm
 brm
 brm
-brm
+xWz
 brm
 brm
 brm
@@ -159651,8 +159667,8 @@ brm
 brm
 brm
 brm
-brm
-brm
+tYv
+tYv
 brm
 brm
 brm
@@ -160076,7 +160092,7 @@ brm
 brm
 brm
 brm
-brm
+nvu
 brm
 brm
 brm
@@ -160580,7 +160596,7 @@ brm
 brm
 brm
 brm
-brm
+nvu
 brm
 brm
 brm
@@ -161339,8 +161355,8 @@ brm
 brm
 brm
 brm
-brm
-brm
+tYv
+tYv
 brm
 brm
 brm
@@ -161597,7 +161613,7 @@ brm
 brm
 brm
 brm
-brm
+tYv
 brm
 brm
 brm
@@ -162104,7 +162120,7 @@ brm
 brm
 brm
 brm
-brm
+xWz
 brm
 brm
 brm
@@ -162371,7 +162387,7 @@ brm
 brm
 brm
 brm
-brm
+xWz
 brm
 brm
 brm
