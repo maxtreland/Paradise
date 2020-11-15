@@ -33774,6 +33774,7 @@
 "biI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/baseturf_helper/asteroid/snow_naga,
 /turf/simulated/floor/plasteel/hispania{
 	icon_state = "L7"
 	},
@@ -62004,6 +62005,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
+/obj/effect/baseturf_helper/asteroid/snow_naga,
 /turf/simulated/floor/plasteel,
 /area/hallway/primary/central/se)
 "cgK" = (
@@ -62883,7 +62885,6 @@
 	network = list("Research","SS13");
 	pixel_x = 0
 	},
-/obj/machinery/suit_storage_unit/standard_unit,
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -63508,6 +63509,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/baseturf_helper/asteroid/snow_naga,
 /turf/simulated/floor/plasteel,
 /area/hallway/primary/central/south)
 "cjk" = (
@@ -66736,15 +66738,15 @@
 	name = "Biohazard Shutter";
 	opacity = 0
 	},
-/obj/machinery/door/airlock/research{
-	name = "Toxins Launch Room";
-	req_access_txt = "7"
+/obj/structure/window/plasmareinforced{
+	dir = 1
 	},
-/obj/machinery/door/firedoor,
-/obj/machinery/door/poddoor{
-	id_tag = "toxinsdriver";
-	name = "Toxins Launcher Bay Door";
-	protected = 0
+/obj/structure/grille,
+/obj/structure/window/plasmareinforced{
+	dir = 8
+	},
+/obj/structure/window/plasmareinforced{
+	dir = 4
 	},
 /turf/simulated/floor/plasteel,
 /area/toxins/launch{
@@ -68125,9 +68127,6 @@
 	id_tag = "Biohazard";
 	name = "Biohazard Shutter";
 	opacity = 0
-	},
-/obj/structure/window/plasmareinforced{
-	dir = 1
 	},
 /turf/simulated/floor/plating,
 /area/toxins/launch{
@@ -97488,6 +97487,10 @@
 	},
 /turf/simulated/floor/wood,
 /area/crew_quarters/bar)
+"jwj" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plasteel,
+/area/hallway/primary/starboard/east)
 "jwq" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
@@ -97674,6 +97677,13 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/crew_quarters/dorms)
+"kLn" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "green"
+	},
+/area/hallway/primary/starboard/west)
 "kMP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -98148,6 +98158,12 @@
 	icon_state = "floor4"
 	},
 /area/shuttle/tsf)
+"naL" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plasteel,
+/area/hallway/primary/central/ne)
 "neF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -98245,6 +98261,12 @@
 /obj/effect/decal/warning_stripes/south,
 /turf/simulated/floor/plasteel,
 /area/shuttle/escape)
+"nAE" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/plasteel,
+/area/hallway/primary/central/west)
 "nCu" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -125360,7 +125382,7 @@ bDO
 bGZ
 bDO
 bDO
-bDO
+nAE
 bDO
 bMm
 bNY
@@ -133573,7 +133595,7 @@ bnM
 bpA
 bqs
 bpA
-bpA
+naL
 bpA
 bvD
 byx
@@ -141804,7 +141826,7 @@ boB
 boB
 bxM
 bjB
-bAr
+kLn
 bHy
 bJd
 bEu
@@ -146175,7 +146197,7 @@ bCS
 bau
 bFv
 bHI
-bwv
+jwj
 bDr
 bEA
 bEA
