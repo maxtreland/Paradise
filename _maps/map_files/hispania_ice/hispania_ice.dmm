@@ -97507,7 +97507,7 @@
 "jro" = (
 /obj/effect/decal/warning_stripes/east,
 /obj/machinery/sleeper,
-/obj/structure/sign/poster/official{
+/obj/structure/sign/poster/official/random{
 	pixel_x = 32
 	},
 /turf/simulated/floor/plasteel,
@@ -98167,6 +98167,11 @@
 "mPF" = (
 /obj/effect/decal/warning_stripes/east,
 /obj/machinery/space_heater,
+/obj/machinery/camera{
+	c_tag = "Panic Bunker";
+	dir = 8;
+	network = list("SS13")
+	},
 /turf/simulated/floor/plasteel,
 /area/maintenance/snowbunker)
 "mRt" = (
@@ -99202,6 +99207,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
+/obj/structure/lattice/catwalk,
 /turf/simulated/floor/plating/asteroid/snow/naga,
 /area/maintenance/snowbunker)
 "rKd" = (
@@ -99862,10 +99868,6 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/maintenance/snowbunker)
-"tYv" = (
-/obj/structure/flora/bush/snowgrass_naga,
-/turf/simulated/floor/plating/asteroid/snow/naga,
-/area/snowland/surface)
 "tZm" = (
 /obj/effect/decal/cleanable/blood,
 /obj/machinery/computer{
@@ -100716,7 +100718,7 @@
 	level = 1
 	},
 /obj/machinery/sleeper,
-/obj/structure/sign/poster/official{
+/obj/structure/sign/poster/official/random{
 	pixel_x = 32
 	},
 /turf/simulated/floor/plasteel,
@@ -104523,7 +104525,7 @@ brm
 brm
 brm
 brm
-tYv
+brm
 brm
 brm
 brm
@@ -108372,7 +108374,7 @@ brm
 brm
 brm
 brm
-tYv
+brm
 brm
 brm
 brm
@@ -118657,7 +118659,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -118920,7 +118922,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -119569,7 +119571,7 @@ brm
 brm
 brm
 brm
-tYv
+brm
 brm
 brm
 brm
@@ -119816,7 +119818,7 @@ brm
 brm
 xWz
 brm
-tYv
+brm
 brm
 brm
 brm
@@ -121103,8 +121105,8 @@ brm
 brm
 brm
 brm
-tYv
-tYv
+brm
+brm
 brm
 brm
 brm
@@ -122125,7 +122127,7 @@ brm
 brm
 brm
 brm
-tYv
+brm
 brm
 brm
 brm
@@ -123421,7 +123423,7 @@ brm
 brm
 brm
 brm
-tYv
+brm
 brm
 brm
 brm
@@ -124711,7 +124713,7 @@ brm
 brm
 brm
 brm
-tYv
+brm
 brm
 brm
 brm
@@ -124968,7 +124970,7 @@ brm
 brm
 brm
 brm
-tYv
+brm
 brm
 brm
 brm
@@ -126447,7 +126449,7 @@ tTF
 brm
 brm
 brm
-brm
+uzd
 brm
 xWz
 cFa
@@ -127014,7 +127016,7 @@ brm
 brm
 brm
 brm
-tYv
+brm
 brm
 brm
 brm
@@ -127434,7 +127436,7 @@ bgP
 bmV
 bkv
 bmb
-brm
+uzd
 bmc
 bmc
 bmc
@@ -132832,7 +132834,7 @@ bnn
 bkF
 bmi
 tTF
-brm
+uzd
 bqN
 bsJ
 byr
@@ -143975,7 +143977,7 @@ tTF
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 qIy
@@ -147824,7 +147826,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -148857,7 +148859,7 @@ bgo
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 abv
@@ -149384,7 +149386,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -150012,7 +150014,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -152345,7 +152347,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -152591,7 +152593,7 @@ brm
 brm
 brm
 brm
-brm
+iWi
 brm
 brm
 brm
@@ -154516,6 +154518,7 @@ brm
 brm
 brm
 brm
+iWi
 brm
 brm
 brm
@@ -154527,15 +154530,14 @@ brm
 brm
 brm
 brm
-tYv
-tYv
 brm
 brm
 brm
 brm
 brm
-tYv
-tYv
+brm
+brm
+brm
 brm
 brm
 brm
@@ -154761,6 +154763,7 @@ brm
 brm
 brm
 brm
+iWi
 brm
 brm
 brm
@@ -154782,9 +154785,6 @@ brm
 brm
 brm
 brm
-tYv
-tYv
-tYv
 brm
 brm
 brm
@@ -154792,8 +154792,10 @@ brm
 brm
 brm
 brm
-tYv
-tYv
+brm
+brm
+brm
+brm
 brm
 brm
 brm
@@ -155794,6 +155796,7 @@ brm
 brm
 brm
 brm
+iWi
 brm
 brm
 brm
@@ -155814,7 +155817,6 @@ brm
 brm
 brm
 brm
-tYv
 brm
 brm
 brm
@@ -156580,7 +156582,6 @@ brm
 brm
 brm
 brm
-tYv
 brm
 brm
 brm
@@ -156595,7 +156596,8 @@ brm
 brm
 brm
 brm
-tYv
+brm
+brm
 brm
 brm
 brm
@@ -156722,7 +156724,7 @@ brm
 brm
 brm
 brm
-tYv
+brm
 brm
 brm
 brm
@@ -156837,7 +156839,6 @@ brm
 brm
 brm
 brm
-tYv
 brm
 brm
 brm
@@ -156852,7 +156853,8 @@ brm
 brm
 brm
 brm
-tYv
+brm
+brm
 brm
 brm
 brm
@@ -157094,7 +157096,6 @@ brm
 brm
 brm
 brm
-tYv
 brm
 brm
 brm
@@ -157109,7 +157110,8 @@ brm
 brm
 brm
 brm
-tYv
+brm
+brm
 brm
 brm
 brm
@@ -157351,7 +157353,6 @@ brm
 brm
 brm
 brm
-tYv
 brm
 brm
 brm
@@ -157365,7 +157366,8 @@ brm
 brm
 brm
 brm
-tYv
+brm
+brm
 brm
 brm
 brm
@@ -157608,7 +157610,7 @@ brm
 brm
 brm
 brm
-tYv
+brm
 brm
 brm
 brm
@@ -157865,7 +157867,7 @@ brm
 brm
 brm
 brm
-tYv
+brm
 brm
 brm
 brm
@@ -158122,7 +158124,7 @@ brm
 brm
 brm
 brm
-tYv
+brm
 brm
 brm
 brm
@@ -158379,7 +158381,7 @@ brm
 brm
 brm
 brm
-tYv
+brm
 brm
 brm
 brm
@@ -158636,7 +158638,7 @@ brm
 brm
 brm
 brm
-tYv
+brm
 brm
 brm
 brm
@@ -158900,7 +158902,7 @@ brm
 brm
 brm
 brm
-tYv
+brm
 brm
 brm
 brm
@@ -159155,9 +159157,9 @@ brm
 brm
 brm
 brm
-tYv
-tYv
-tYv
+brm
+brm
+brm
 brm
 brm
 brm
@@ -159294,7 +159296,7 @@ brm
 brm
 brm
 brm
-tYv
+brm
 xWz
 brm
 brm
@@ -159411,8 +159413,8 @@ brm
 brm
 brm
 brm
-tYv
-tYv
+brm
+brm
 brm
 brm
 brm
@@ -159667,8 +159669,8 @@ brm
 brm
 brm
 brm
-tYv
-tYv
+brm
+brm
 brm
 brm
 brm
@@ -161355,8 +161357,8 @@ brm
 brm
 brm
 brm
-tYv
-tYv
+brm
+brm
 brm
 brm
 brm
@@ -161613,7 +161615,7 @@ brm
 brm
 brm
 brm
-tYv
+brm
 brm
 brm
 brm

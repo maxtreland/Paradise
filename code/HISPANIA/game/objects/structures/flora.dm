@@ -39,12 +39,3 @@
 /obj/structure/flora/bush/naga_eye_yellow/New()
 	..()
 	icon_state = "glowplant[rand(1, 2)]"
-
-/obj/structure/flora/bush/snowgrass_naga
-	name = "snow grass"
-	icon = 'icons/hispania/obj/flora/small_flora_snow.dmi'
-	icon_state = "snowgrass_0"
-
-/obj/structure/flora/bush/snowgrass_naga/New()
-	..()
-	icon_state = "snowgrass_[rand(0, 5)]"
