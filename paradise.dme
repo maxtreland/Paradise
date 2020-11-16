@@ -1196,6 +1196,7 @@
 #include "code\HISPANIA\datums\traits\_quirk.dm"
 #include "code\HISPANIA\datums\traits\negative.dm"
 #include "code\HISPANIA\datums\traits\neutral.dm"
+#include "code\HISPANIA\datums\weather\weather_types\naga_storm.dm"
 #include "code\HISPANIA\defines\procs\discord.dm"
 #include "code\HISPANIA\defines\procs\newsounds.dm"
 #include "code\HISPANIA\game\data_huds.dm"
