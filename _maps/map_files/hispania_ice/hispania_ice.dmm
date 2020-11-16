@@ -32837,9 +32837,7 @@
 	icon_state = "1-2";
 	tag = ""
 	},
-/turf/simulated/floor/plasteel/hispania{
-	icon_state = "L11"
-	},
+/turf/simulated/floor/plasteel,
 /area/hallway/primary/central/north)
 "bgX" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -32878,19 +32876,6 @@
 	dir = 2
 	},
 /area/crew_quarters/dorms)
-"bha" = (
-/turf/simulated/floor/plasteel/hispania,
-/area/hallway/primary/central/north)
-"bhb" = (
-/turf/simulated/floor/plasteel/hispania{
-	icon_state = "L3"
-	},
-/area/hallway/primary/central/north)
-"bhc" = (
-/turf/simulated/floor/plasteel/hispania{
-	icon_state = "L5"
-	},
-/area/hallway/primary/central/north)
 "bhd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -33775,9 +33760,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/baseturf_helper/asteroid/snow_naga,
-/turf/simulated/floor/plasteel/hispania{
-	icon_state = "L7"
-	},
+/turf/simulated/floor/plasteel,
 /area/hallway/primary/central/north)
 "biJ" = (
 /obj/structure/cable{
@@ -33793,11 +33776,6 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/hallway/primary/port)
-"biK" = (
-/turf/simulated/floor/plasteel/hispania{
-	icon_state = "L9"
-	},
-/area/hallway/primary/central/north)
 "biL" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -33865,11 +33843,6 @@
 	icon_state = "dark"
 	},
 /area/ai_monitored/storage/eva)
-"biO" = (
-/turf/simulated/floor/plasteel/hispania{
-	icon_state = "L13"
-	},
-/area/hallway/primary/central/north)
 "biP" = (
 /obj/structure/chair/wood{
 	dir = 4
@@ -36128,17 +36101,6 @@
 /obj/structure/lattice/catwalk,
 /turf/simulated/floor/plating/asteroid/snow/naga,
 /area/snowland/surface)
-"bnd" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/plasteel/hispania{
-	icon_state = "L4"
-	},
-/area/hallway/primary/central/north)
 "bne" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -36148,16 +36110,12 @@
 	initialize_directions = 11;
 	level = 1
 	},
-/turf/simulated/floor/plasteel/hispania{
-	icon_state = "L2"
-	},
+/turf/simulated/floor/plasteel,
 /area/hallway/primary/central/north)
 "bnf" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/turf/simulated/floor/plasteel/hispania{
-	icon_state = "L8"
-	},
+/turf/simulated/floor/plasteel,
 /area/hallway/primary/central/north)
 "bng" = (
 /obj/structure/cable{
@@ -36184,9 +36142,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plasteel/hispania{
-	icon_state = "L6"
-	},
+/turf/simulated/floor/plasteel,
 /area/hallway/primary/central/north)
 "bni" = (
 /obj/structure/cable{
@@ -36201,9 +36157,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plasteel/hispania{
-	icon_state = "L12"
-	},
+/turf/simulated/floor/plasteel,
 /area/hallway/primary/central/north)
 "bnj" = (
 /obj/machinery/navbeacon{
@@ -36216,9 +36170,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plasteel/hispania{
-	icon_state = "L10"
-	},
+/turf/simulated/floor/plasteel,
 /area/hallway/primary/central/north)
 "bnk" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -36227,9 +36179,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/turf/simulated/floor/plasteel/hispania{
-	icon_state = "L14"
-	},
+/turf/simulated/floor/plasteel,
 /area/hallway/primary/central/north)
 "bnl" = (
 /obj/machinery/camera{
@@ -62076,6 +62026,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/effect/baseturf_helper/asteroid/snow_naga,
 /turf/simulated/floor/bluegrid{
 	icon_state = "dark";
 	name = "Server Walkway";
@@ -98585,6 +98536,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/wall,
 /area/crew_quarters/dorms)
+"oMm" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/engine,
+/area/toxins/explab_chamber)
 "oNB" = (
 /obj/effect/decal/cleanable/blood,
 /obj/structure/chair/comfy/shuttle,
@@ -128974,7 +128929,7 @@ bor
 cRN
 aRw
 dix
-bha
+bdD
 bne
 bpv
 blY
@@ -129231,8 +129186,8 @@ aRw
 aRw
 aRw
 diw
-bhb
-bnd
+bdD
+bna
 bkz
 blU
 bnV
@@ -129488,7 +129443,7 @@ aZx
 bbr
 dcb
 bdv
-bhc
+bdD
 bnh
 bkz
 bma
@@ -130002,7 +129957,7 @@ baF
 bev
 bhh
 bhV
-biK
+bdD
 bnj
 bkz
 bma
@@ -130516,7 +130471,7 @@ bpQ
 cSW
 aDN
 dje
-biO
+bdD
 bnk
 bpy
 blY
@@ -144427,7 +144382,7 @@ bWc
 caj
 ccW
 cbf
-cjG
+oMm
 cjG
 coz
 cod
