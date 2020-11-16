@@ -15,7 +15,7 @@
 	end_message = "<span class='notice'>The snowfall dies down, it should be safe to go outside again.</span>"
 
 	area_type = /area/snowland/surface
-	target_trait = REACHABLE
+	target_trait = STATION_LEVEL
 
 	immunity_type = "snow"
 
