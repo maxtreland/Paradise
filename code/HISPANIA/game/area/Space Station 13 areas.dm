@@ -27,3 +27,7 @@
 	power_equip = FALSE
 	power_light = FALSE
 	ambientsounds = MINING_SOUNDS
+
+/area/maintenance/snowbunker
+	name = "Panic Bunker"
+	icon_state = "green"

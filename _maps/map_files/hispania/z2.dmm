@@ -275,6 +275,7 @@
 /turf/unsimulated/floor/plating/vox,
 /area/vox_station)
 "bn" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
 /turf/simulated/floor/holofloor{
 	tag = "icon-carpet6-2 (EAST)";
 	icon_state = "carpet6-2";
@@ -790,8 +791,20 @@
 	dir = 4
 	},
 /area/holodeck/source_meetinghall)
+"dm" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/holofloor{
+	icon_state = "engine";
+	name = "Burn-Mix Floor";
+	nitrogen = 0;
+	oxygen = 2500;
+	temperature = 370;
+	toxins = 5000
+	},
+/area/holodeck/source_burntest)
 "dn" = (
 /obj/structure/chair/stool,
+/obj/effect/baseturf_helper/asteroid/snow_naga,
 /turf/simulated/floor/holofloor{
 	tag = "icon-carpet10-0 (EAST)";
 	icon_state = "carpet10-0";
@@ -2989,6 +3002,14 @@
 	icon_state = "dark"
 	},
 /area/syndicate_mothership)
+"jr" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/holofloor{
+	tag = "icon-asteroid";
+	icon_state = "asteroid";
+	dir = 2
+	},
+/area/holodeck/source_desert)
 "js" = (
 /obj/structure/table/reinforced,
 /obj/item/syndicatedetonator,
@@ -11165,6 +11186,17 @@
 /obj/item/gun/throw/crossbow,
 /turf/simulated/floor/wood,
 /area/tdome/arena_source3)
+"CO" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/wood,
+/area/dynamic/source/lobby_bar)
+"CW" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/holofloor{
+	icon_state = "engine";
+	name = "Holodeck Projector Floor"
+	},
+/area/holodeck/source_plating)
 "Dh" = (
 /obj/structure/flora/bush,
 /obj/structure/barricade/wooden,
@@ -11184,6 +11216,13 @@
 	icon_state = "red"
 	},
 /area/holodeck/source_thunderdomecourt)
+"DT" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/holofloor{
+	dir = 1;
+	icon_state = "green"
+	},
+/area/holodeck/source_basketball)
 "DX" = (
 /turf/simulated/floor/mech_bay_recharge_floor,
 /area/admin)
@@ -11251,6 +11290,10 @@
 /obj/item/harpoon,
 /turf/simulated/floor/wood,
 /area/tdome/arena_source3)
+"FF" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/holofloor/space,
+/area/holodeck/source_space)
 "FH" = (
 /turf/simulated/floor/holofloor{
 	tag = "icon-rampbottom";
@@ -11435,9 +11478,17 @@
 	dir = 2
 	},
 /area/holodeck/source_picnicarea)
+"II" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/holofloor,
+/area/holodeck/source_thunderdomecourt)
 "IM" = (
 /turf/unsimulated/wall,
 /area/tdome/arena_source3)
+"IR" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/holofloor,
+/area/holodeck/source_boxingcourt)
 "IV" = (
 /obj/item/inflatable/door,
 /obj/item/inflatable/door,
@@ -11454,6 +11505,10 @@
 /obj/random/buff,
 /turf/simulated/floor/light,
 /area/tdome/arena_source2)
+"Jj" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/wood,
+/area/dynamic/source/lobby_russian)
 "JC" = (
 /obj/structure/chair/stool,
 /obj/item/clothing/head/bandana{
@@ -11701,6 +11756,10 @@
 	dir = 4
 	},
 /area/holodeck/source_desert)
+"MO" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/wood,
+/area/dynamic/source/lobby_disco)
 "MU" = (
 /obj/structure/flora/ausbushes/sunnybush,
 /turf/simulated/floor/grass,
@@ -11708,12 +11767,22 @@
 "MV" = (
 /turf/simulated/floor/grass,
 /area/tdome/arena_source3)
+"MW" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/shuttle/floor{
+	icon_state = "floor4"
+	},
+/area/shuttle/gamma/space)
 "MX" = (
 /turf/unsimulated/floor/snow,
 /area/space)
 "Na" = (
 /turf/simulated/floor/holofloor/space,
 /area/holodeck/source_space)
+"Nc" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/holofloor,
+/area/holodeck/source_emptycourt)
 "Ng" = (
 /obj/structure/flora/grass/brown,
 /turf/unsimulated/floor/snow,
@@ -11886,6 +11955,13 @@
 /obj/item/gun/projectile/bow,
 /turf/simulated/floor/wood,
 /area/tdome/arena_source3)
+"Qm" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/holofloor{
+	tag = "icon-snow";
+	icon_state = "snow"
+	},
+/area/holodeck/source_snowfield)
 "Qr" = (
 /obj/effect/landmark/ai_multicam_room,
 /turf/unsimulated/ai_visible,
@@ -11990,6 +12066,14 @@
 	dir = 4
 	},
 /area/holodeck/source_theatre)
+"RQ" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/holofloor{
+	tag = "icon-asteroid7";
+	icon_state = "asteroid7";
+	dir = 2
+	},
+/area/holodeck/source_knightarena)
 "RU" = (
 /obj/item/flag/nt,
 /turf/simulated/floor/plating/abductor,
@@ -12160,6 +12244,13 @@
 /mob/living/simple_animal/hostile/bear,
 /turf/simulated/floor/beach/sand,
 /area/tdome/arena_source)
+"Ut" = (
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/holofloor{
+	icon_state = "engine";
+	name = "Holodeck Projector Floor"
+	},
+/area/holodeck/source_wildlife)
 "Uw" = (
 /obj/structure/table/holotable,
 /turf/simulated/floor/holofloor{
@@ -12341,6 +12432,15 @@
 	},
 /turf/simulated/shuttle/floor,
 /area/centcom/evac)
+"WP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/baseturf_helper/asteroid/snow_naga,
+/turf/simulated/floor/holofloor{
+	tag = "icon-asteroid";
+	icon_state = "asteroid";
+	dir = 2
+	},
+/area/holodeck/source_picnicarea)
 "WT" = (
 /obj/item/stack/sheet/mineral/sandstone{
 	amount = 10
@@ -12445,6 +12545,7 @@
 "XZ" = (
 /obj/item/clothing/under/rainbow,
 /obj/item/clothing/glasses/sunglasses,
+/obj/effect/baseturf_helper/asteroid/snow_naga,
 /turf/simulated/floor/beach/sand,
 /area/holodeck/source_beach)
 "Yd" = (
@@ -25810,7 +25911,7 @@ th
 fm
 oh
 oB
-pf
+MW
 pf
 pf
 fV
@@ -66539,7 +66640,7 @@ aN
 af
 Em
 Um
-Um
+RQ
 Um
 NG
 KU
@@ -67826,7 +67927,7 @@ FS
 ar
 ar
 aX
-ar
+jr
 ar
 bd
 ar
@@ -68092,7 +68193,7 @@ ar
 cd
 Na
 Na
-Na
+FF
 Na
 Na
 Na
@@ -68862,7 +68963,7 @@ Hp
 bt
 cd
 cl
-cl
+Qm
 cl
 cl
 cl
@@ -69367,7 +69468,7 @@ af
 bt
 Hp
 Oj
-aY
+WP
 aG
 aG
 aY
@@ -71938,7 +72039,7 @@ ax
 ax
 ax
 ax
-ax
+Ut
 ax
 ax
 ax
@@ -72464,7 +72565,7 @@ eI
 cQ
 eI
 dp
-dG
+DT
 gK
 el
 eI
@@ -73737,7 +73838,7 @@ az
 az
 az
 az
-az
+CW
 az
 az
 az
@@ -74273,7 +74374,7 @@ aN
 af
 Kd
 hW
-hW
+Jj
 ic
 cc
 aN
@@ -75546,7 +75647,7 @@ ce
 DS
 eN
 eN
-eN
+II
 Wz
 eJ
 eN
@@ -75793,7 +75894,7 @@ aA
 aQ
 aA
 aA
-aA
+dm
 aA
 aA
 aA
@@ -76071,7 +76172,7 @@ cc
 aN
 af
 Kh
-hY
+MO
 hY
 hY
 cc
@@ -77079,7 +77180,7 @@ bM
 bM
 bM
 bM
-bM
+Nc
 bM
 bM
 bM
@@ -77088,7 +77189,7 @@ ce
 cw
 eQ
 eQ
-eQ
+IR
 eQ
 eQ
 eQ
@@ -77099,7 +77200,7 @@ cc
 aN
 af
 hT
-ia
+CO
 ia
 ia
 cc
