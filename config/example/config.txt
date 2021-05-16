@@ -234,6 +234,9 @@ WIKIURL https://www.paradisestation.org/wiki
 ## Rules address
 RULESURL https://www.paradisestation.org/rules
 
+## Github address
+GITHUBURL https://github.com/Helixis/Paradise
+
 ## Discord address
 #DISCORDURL http://example.org
 

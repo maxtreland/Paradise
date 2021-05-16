@@ -15,6 +15,8 @@
 	origin_tech = "combat=4;materials=4;powerstorage=4"
 	ammo_type = list(/obj/item/ammo_casing/energy/shock_revolver)
 	can_flashlight = 0
+	zoomable = TRUE
+	zoom_amt = 1
 	shaded_charge = FALSE
 	zoomable = TRUE
 	zoom_amt = 1
