@@ -96,7 +96,7 @@ export const CommunicationsComputer = (props, context) => {
         key={slevel.name}
         icon={slevel.icon}
         content={slevel.name}
-        disabled={!data.authcapt
+        disabled={!data.authhead
           || slevel.id === data.security_level}
         onClick={() => act('newalertlevel', { level: slevel.id })} />
     );
@@ -175,7 +175,7 @@ export const CommunicationsComputer = (props, context) => {
         <Window resizable>
           <Window.Content scrollable>
             {authBlock}
-            <Section title="Captain-Only Actions">
+            <Section title="Priority Actions">
               <LabeledList>
                 <LabeledList.Item label="Current Alert"
                   color={data.security_level_color}>

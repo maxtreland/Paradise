@@ -165,6 +165,7 @@ GLOBAL_LIST_INIT(ai_verbs_default, list(
 	additional_law_channels["Holopad"] = ":h"
 
 	aiCamera = new/obj/item/camera/siliconcam/ai_camera(src)
+	deploy_action.Grant(src)
 
 	if(isturf(loc))
 		add_ai_verbs(src)
@@ -288,15 +289,17 @@ GLOBAL_LIST_INIT(ai_verbs_default, list(
 	for(var/thing in connected_robots)
 		var/mob/living/silicon/robot/R = thing
 		var/robot_status = "Nominal"
+		if(R.shell)
+			robot_status = "AI SHELL"
 		if(R.stat || !R.client)
 			robot_status = "OFFLINE"
 		else if(!R.cell || R.cell.charge <= 0)
 			robot_status = "DEPOWERED"
 		// Name, Health, Battery, Module, Area, and Status! Everything an AI wants to know about its borgies!
 		var/area/A = get_area(R)
-		var/area_name = A ? sanitize(A.name) : "Unknown"
 		stat(null, text("[R.name] | S.Integrity: [R.health]% | Cell: [R.cell ? "[R.cell.charge] / [R.cell.maxcharge]" : "Empty"] | \
-		Module: [R.designation] | Loc: [area_name] | Status: [robot_status]"))
+		Module: [R.designation] | Loc: [sanitize(A.name)] | Status: [robot_status]"))
+	stat(null, text("AI shell beacons detected: [LAZYLEN(GLOB.available_ai_shells)]")) //Count of total AI shells
 
 /mob/living/silicon/ai/rename_character(oldname, newname)
 	if(!..(oldname, newname))
@@ -613,6 +616,7 @@ GLOBAL_LIST_INIT(ai_verbs_default, list(
 
 /mob/living/silicon/ai/emp_act(severity)
 	..()
+	disconnect_shell()
 	if(prob(30))
 		switch(pick(1,2))
 			if(1)
@@ -1008,6 +1012,7 @@ GLOBAL_LIST_INIT(ai_verbs_default, list(
 			"Fox",
 			"Goat",
 			"Goose",
+			"Kangaroo",
 			"Kitten",
 			"Kitten2",
 			"Pig",
@@ -1025,7 +1030,7 @@ GLOBAL_LIST_INIT(ai_verbs_default, list(
 					if("Bear")
 						holo_icon = getHologramIcon(icon('icons/mob/animal.dmi',"bear"))
 					if("Carp")
-						holo_icon = getHologramIcon(icon('icons/mob/animal.dmi',"carp"))
+						holo_icon = getHologramIcon(icon('icons/mob/carp.dmi',"carp"))
 					if("Chicken")
 						holo_icon = getHologramIcon(icon('icons/mob/animal.dmi',"chicken_brown"))
 					if("Corgi")
@@ -1042,6 +1047,8 @@ GLOBAL_LIST_INIT(ai_verbs_default, list(
 						holo_icon = getHologramIcon(icon('icons/mob/animal.dmi',"goat"))
 					if("Goose")
 						holo_icon = getHologramIcon(icon('icons/mob/animal.dmi',"goose"))
+					if("Kangaroo")
+						holo_icon = getHologramIcon(icon('icons/mob/animal.dmi',"kangaroo"))
 					if("Kitten")
 						holo_icon = getHologramIcon(icon('icons/mob/pets.dmi',"cat"))
 					if("Kitten2")
@@ -1065,7 +1072,8 @@ GLOBAL_LIST_INIT(ai_verbs_default, list(
 			"floating face",
 			"xeno queen",
 			"eldritch",
-			"ancient machine"
+			"ancient machine",
+			"clippy"
 			)
 			if(custom_hologram) //insert custom hologram
 				icon_list.Add("custom")
@@ -1082,6 +1090,8 @@ GLOBAL_LIST_INIT(ai_verbs_default, list(
 						holo_icon = getHologramIcon(icon('icons/mob/ai.dmi',"holo3"))
 					if("eldritch")
 						holo_icon = getHologramIcon(icon('icons/mob/ai.dmi',"holo4"))
+					if("clippy")
+						holo_icon = getHologramIcon(icon('icons/hispania/mob/ai.dmi',"clippy"))
 					if("ancient machine")
 						holo_icon = getHologramIcon(icon('icons/mob/ancient_machine.dmi', "ancient_machine"))
 					if("custom")
@@ -1234,6 +1244,7 @@ GLOBAL_LIST_INIT(ai_verbs_default, list(
 	if(!..())
 		return
 	if(interaction == AI_TRANS_TO_CARD)//The only possible interaction. Upload AI mob to a card.
+		disconnect_shell() //If the AI is controlling a borg, force the player back to core!
 		if(!mind)
 			to_chat(user, "<span class='warning'>No intelligence patterns detected.</span>")//No more magical carding of empty cores, AI RETURN TO BODY!!!11
 			return
@@ -1319,7 +1330,7 @@ GLOBAL_LIST_INIT(ai_verbs_default, list(
 /mob/living/silicon/ai/proc/open_nearest_door(mob/living/target)
 	if(!istype(target))
 		return
-	
+
 	if(check_unable(AI_CHECK_WIRELESS))
 		return
 

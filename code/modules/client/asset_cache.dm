@@ -231,7 +231,7 @@ GLOBAL_LIST_EMPTY(asset_datums)
 	var/verify = FALSE
 
 /datum/asset/chem_master/register()
-	for(var/i = 1 to 20)
+	for(var/i = 1 to 27)
 		assets["pill[i].png"] = icon('icons/obj/chemical.dmi', "pill[i]")
 	for(var/i in list("bottle", "small_bottle", "wide_bottle", "round_bottle", "reagent_bottle"))
 		assets["[i].png"] = icon('icons/obj/chemical.dmi', "[i]")
@@ -317,6 +317,7 @@ GLOBAL_LIST_EMPTY(asset_datums)
 	assets = list(
 		"Cyberiad_nanomap_z1.png"		= 'icons/_nanomaps/Cyberiad_nanomap_z1.png',
 		"Delta_nanomap_z1.png"			= 'icons/_nanomaps/Delta_nanomap_z1.png',
+		"Hispania_nanomap_z1.png"		= 'icons/_nanomaps/Hispania_nanomap_z1.png',
 		"MetaStation_nanomap_z1.png"	= 'icons/_nanomaps/MetaStation_nanomap_z1.png',
 	)
 

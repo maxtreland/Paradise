@@ -98,8 +98,8 @@
 
 		if(SSticker.current_state == GAME_STATE_PREGAME)
 			stat("Players:", "[totalPlayers]")
-			if(check_rights(R_ADMIN, 0, src))
-				stat("Players Ready:", "[totalPlayersReady]")
+			//if(check_rights(R_ADMIN, 0, src)) Readys Global
+			stat("Players Ready:", "[totalPlayersReady]")
 			totalPlayers = 0
 			totalPlayersReady = 0
 			for(var/mob/new_player/player in GLOB.player_list)
@@ -309,7 +309,17 @@
 	if(thisjob.barred_by_disability(client))
 		to_chat(src, alert("[rank] is not available due to your character's disability. Please try another."))
 		return 0
-
+	///Restricciones de edad
+	if(thisjob.age_restringed(client))
+		to_chat(src, alert("[rank] is not available due to your character's age. Please try another."))
+		return 0
+	if(thisjob.command_age_restringed(client))
+		to_chat(src, alert("[rank] is not available due to your character's age. Please try another."))
+		return 0
+	if(thisjob.captain_age_restringed(client))
+		to_chat(src, alert("[rank] is not available due to your character's age. Please try another."))
+		return 0
+	///Fin restricciones de edad
 	SSjobs.AssignRole(src, rank, 1)
 
 	var/mob/living/character = create_character()	//creates the human and transfers vars and mind
@@ -381,6 +391,11 @@
 
 	if(!thisjob.is_position_available() && (thisjob in SSjobs.prioritized_jobs))
 		SSjobs.prioritized_jobs -= thisjob
+	var/mob/living/carbon/human/humanc
+	if(ishuman(character))
+		humanc = character	//Let's retypecast the var to be human,
+	if(humanc && config.roundstart_traits)
+		SSquirks.AssignQuirks(humanc, humanc.client, TRUE)
 	qdel(src)
 
 
@@ -481,7 +496,7 @@
 		"Supply" = list(jobs = list(), titles = GLOB.supply_positions, color = "#ead4ae"),
 		)
 	for(var/datum/job/job in SSjobs.occupations)
-		if(job && IsJobAvailable(job.title) && !job.barred_by_disability(client))
+		if(job && IsJobAvailable(job.title) && !job.barred_by_disability(client) && !job.age_restringed(client) && !job.command_age_restringed(client) && !job.captain_age_restringed(client))///Restricción de edad
 			num_jobs_available++
 			activePlayers[job] = 0
 			var/categorized = 0

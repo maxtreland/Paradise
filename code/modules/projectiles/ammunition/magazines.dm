@@ -343,8 +343,8 @@
 	icon_state = "[initial(icon_state)]-[round(ammo_count(),2)]"
 
 /obj/item/ammo_box/magazine/tommygunm45
-	name = "drum magazine (.45)"
-	icon_state = "drum45"
+	name = "tommy magazine (.45)"
+	icon_state = "tommy45"
 	ammo_type = /obj/item/ammo_casing/c45
 	caliber = ".45"
 	max_ammo = 50
@@ -496,11 +496,11 @@
 /obj/item/ammo_box/magazine/toy/m762
 	name = "donksoft box magazine"
 	ammo_type = /obj/item/ammo_casing/caseless/foam_dart/riot
-	max_ammo = 50
+	max_ammo = 100
 
 /obj/item/ammo_box/magazine/toy/m762/update_icon()
 	..()
-	icon_state = "a762-[round(ammo_count(),10)]"
+	icon_state = "a762-[round(ammo_count()/25,1)*25]"
 
 /obj/item/ammo_box/magazine/toy/m762/riot
 	ammo_type = /obj/item/ammo_casing/caseless/foam_dart/riot

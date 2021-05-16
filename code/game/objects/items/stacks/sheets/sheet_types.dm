@@ -14,6 +14,8 @@
  * Metal
  */
 GLOBAL_LIST_INIT(metal_recipes, list(
+	new /datum/stack_recipe("metal platform", /obj/structure/platform, 4, time = 30,one_per_turf = TRUE, on_floor = TRUE), //Hispania Platform Recipe
+	new /datum/stack_recipe("metal platform corner", /obj/structure/platform/corner, 2, time = 20, one_per_turf = TRUE, on_floor = TRUE), //Hispania Platform Recipe
 	new /datum/stack_recipe("stool", /obj/structure/chair/stool, one_per_turf = 1, on_floor = 1),
 	new /datum/stack_recipe("barstool", /obj/structure/chair/stool/bar, one_per_turf = 1, on_floor = 1),
 	new /datum/stack_recipe("chair", /obj/structure/chair, one_per_turf = 1, on_floor = 1),
@@ -131,11 +133,14 @@ GLOBAL_LIST_INIT(metal_recipes, list(
  * Plasteel
  */
 GLOBAL_LIST_INIT(plasteel_recipes, list(
+	new /datum/stack_recipe("reinforced plasteel platform", /obj/structure/platform/reinforced, 4, time = 40,one_per_turf = TRUE, on_floor = TRUE), //Hispania Platform Recipe
+	new /datum/stack_recipe("reinforced plasteel platform corner", /obj/structure/platform/reinforced/corner, 2, time = 30,one_per_turf = TRUE, on_floor = TRUE), //Hispania Platform Recipe
 	new /datum/stack_recipe("AI core", /obj/structure/AIcore, 4, time = 50, one_per_turf = 1),
 	new /datum/stack_recipe("bomb assembly", /obj/machinery/syndicatebomb/empty, 3, time = 50),
 	new /datum/stack_recipe("Surgery Table", /obj/machinery/optable, 5, time = 50, one_per_turf = 1, on_floor = 1),
 	new /datum/stack_recipe("Metal crate", /obj/structure/closet/crate, 10, time = 50, one_per_turf = 1),
 	new /datum/stack_recipe("Mass Driver frame", /obj/machinery/mass_driver_frame, 3, time = 50, one_per_turf = 1),
+	new /datum/stack_recipe("Plasteel Barrel", /obj/structure/plast_barrel, 5, time = 50, one_per_turf = 1), //Plasteel Barrel Hispania
 	null,
 	new /datum/stack_recipe_list("airlock assemblies", list(
 		new /datum/stack_recipe("high security airlock assembly", /obj/structure/door_assembly/door_assembly_highsecurity, 6, time = 50, one_per_turf = 1, on_floor = 1),
@@ -216,6 +221,7 @@ GLOBAL_LIST_INIT(cloth_recipes, list ( \
 	null, \
 	new/datum/stack_recipe("backpack", /obj/item/storage/backpack, 4), \
 	new/datum/stack_recipe("dufflebag", /obj/item/storage/backpack/duffel, 6), \
+	new/datum/stack_recipe("sheet bag", /obj/item/storage/bag/sheetsnatcher, 6), \
 	null, \
 	new/datum/stack_recipe("plant bag", /obj/item/storage/bag/plants, 4), \
 	new/datum/stack_recipe("book bag", /obj/item/storage/bag/books, 4), \

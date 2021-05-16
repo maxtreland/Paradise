@@ -656,6 +656,7 @@
 	id = /obj/item/card/id
 	l_hand = /obj/item/gun/projectile/automatic/shotgun/bulldog
 	suit_store = /obj/item/gun/projectile/automatic/pistol/m1911
+	r_hand = /obj/item/gun/projectile/automatic/fullauto/ar
 	r_pocket = /obj/item/flashlight/seclite
 	pda = /obj/item/pda
 	backpack_contents = list(
@@ -912,7 +913,7 @@
 	head = /obj/item/clothing/head/det_hat
 	glasses = /obj/item/clothing/glasses/thermal/monocle
 	l_pocket = /obj/item/ammo_box/a357
-	r_hand = /obj/item/gun/projectile/automatic/proto
+	r_hand = /obj/item/gun/projectile/automatic/fullauto/twomode/proto
 
 /datum/outfit/admin/tournament_chef //Steven Seagal FTW
 	name = "Tournament Chef"

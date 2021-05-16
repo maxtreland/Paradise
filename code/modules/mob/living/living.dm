@@ -253,7 +253,7 @@
 			return TRUE
 		A.visible_message("<span class='danger'>[src] points [hand_item] at [A]!</span>",
 											"<span class='userdanger'>[src] points [hand_item] at you!</span>")
-		SEND_SOUND(A, sound('sound/weapons/targeton.ogg'))
+		playsound(src, 'sound/weapons/targeton.ogg', 85, 1, -1) // hispania
 		return TRUE
 	visible_message("<b>[src]</b> points to [A]")
 	return TRUE
@@ -996,6 +996,15 @@
 /mob/living/onTransitZ(old_z,new_z)
 	..()
 	update_z(new_z)
+
+/mob/living/proc/owns_soul()
+	if(mind)
+		return mind.soulOwner == mind
+	return 1
+
+/mob/living/proc/return_soul()
+	if(mind)
+		mind.soulOwner = mind
 
 /mob/living/rad_act(amount)
 	. = ..()

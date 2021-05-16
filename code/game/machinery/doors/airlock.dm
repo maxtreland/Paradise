@@ -82,8 +82,8 @@ GLOBAL_LIST_EMPTY(airlock_overlays)
 	var/obj/item/note //Any papers pinned to the airlock
 	var/previous_airlock = /obj/structure/door_assembly //what airlock assembly mineral plating was applied to
 	var/airlock_material //material of inner filling; if its an airlock with glass, this should be set to "glass"
-	var/overlays_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
-	var/note_overlay_file = 'icons/obj/doors/airlocks/station/overlays.dmi' //Used for papers and photos pinned to the airlock
+	var/overlays_file = 'icons/hispania/obj/doors/overlays.dmi'
+	var/note_overlay_file = 'icons/hispania/obj/doors/overlays.dmi' //Used for papers and photos pinned to the airlock
 	var/normal_integrity = AIRLOCK_INTEGRITY_N
 	var/prying_so_hard = FALSE
 	var/paintable = TRUE // If the airlock type can be painted with an airlock painter
@@ -682,22 +682,22 @@ About the new airlock wires panel:
 /obj/machinery/door/airlock/proc/check_unres() //unrestricted sides. This overlay indicates which directions the player can access even without an ID
 	if(hasPower() && unres_sides)
 		if(unres_sides & NORTH)
-			var/image/I = image(icon='icons/obj/doors/airlocks/station/overlays.dmi', icon_state="unres_n") //layer=src.layer+1
+			var/image/I = image(icon='icons/hispania/obj/doors/overlays.dmi', icon_state="unres_n") //layer=src.layer+1
 			I.pixel_y = 32
 			set_light(l_range = 1, l_power = 1, l_color = "#00FF00")
 			add_overlay(I)
 		if(unres_sides & SOUTH)
-			var/image/I = image(icon='icons/obj/doors/airlocks/station/overlays.dmi', icon_state="unres_s") //layer=src.layer+1
+			var/image/I = image(icon='icons/hispania/obj/doors/overlays.dmi', icon_state="unres_s") //layer=src.layer+1
 			I.pixel_y = -32
 			set_light(l_range = 1, l_power = 1, l_color = "#00FF00")
 			add_overlay(I)
 		if(unres_sides & EAST)
-			var/image/I = image(icon='icons/obj/doors/airlocks/station/overlays.dmi', icon_state="unres_e") //layer=src.layer+1
+			var/image/I = image(icon='icons/hispania/obj/doors/overlays.dmi', icon_state="unres_e") //layer=src.layer+1
 			I.pixel_x = 32
 			set_light(l_range = 1, l_power = 1, l_color = "#00FF00")
 			add_overlay(I)
 		if(unres_sides & WEST)
-			var/image/I = image(icon='icons/obj/doors/airlocks/station/overlays.dmi', icon_state="unres_w") //layer=src.layer+1
+			var/image/I = image(icon='icons/hispania/obj/doors/overlays.dmi', icon_state="unres_w") //layer=src.layer+1
 			I.pixel_x = -32
 			set_light(l_range = 1, l_power = 1, l_color = "#00FF00")
 			add_overlay(I)
@@ -732,7 +732,6 @@ About the new airlock wires panel:
 		wires.Interact(user)
 	else
 		..()
-
 
 //Checks if the user can headbutt the airlock and does it if it can. Returns TRUE if it happened
 /obj/machinery/door/airlock/proc/headbutt_airlock(mob/user)
@@ -1365,6 +1364,9 @@ About the new airlock wires panel:
 		if(!panel_open)
 			panel_open = TRUE
 		wires.cut_all()
+		var/datum/effect_system/smoke_spread/smoke = new
+		smoke.set_up(4, 0, loc)
+		smoke.start()
 		update_icon()
 
 /obj/machinery/door/airlock/take_damage(damage_amount, damage_type = BRUTE, damage_flag = 0, sound_effect = 1, attack_dir)
@@ -1372,25 +1374,25 @@ About the new airlock wires panel:
 	if(obj_integrity < (0.75 * max_integrity))
 		update_icon()
 
-/obj/machinery/door/airlock/deconstruct(disassembled = TRUE, mob/user)
+/obj/machinery/door/airlock/deconstruct(disassembled = TRUE, mob/user, assemblyvar = TRUE)
 	if(!(flags & NODECONSTRUCT))
-		var/obj/structure/door_assembly/DA
-		if(assemblytype)
-			DA = new assemblytype(loc)
-		else
-			DA = new /obj/structure/door_assembly(loc)
-			//If you come across a null assemblytype, it will produce the default assembly instead of disintegrating.
-		DA.heat_proof_finished = heat_proof //tracks whether there's rglass in
-		DA.anchored = TRUE
-		DA.glass = src.glass
-		DA.state = AIRLOCK_ASSEMBLY_NEEDS_ELECTRONICS
-		DA.created_name = name
-		DA.previous_assembly = previous_airlock
-		DA.update_name()
-		DA.update_icon()
+		if(assemblyvar)
+			var/obj/structure/door_assembly/DA
+			if(assemblytype)
+				DA = new assemblytype(loc)
+			else
+				DA = new /obj/structure/door_assembly(loc)
+				//If you come across a null assemblytype, it will produce the default assembly instead of disintegrating.
+			DA.heat_proof_finished = heat_proof //tracks whether there's rglass in
+			DA.anchored = TRUE
+			DA.glass = src.glass
+			DA.state = AIRLOCK_ASSEMBLY_NEEDS_ELECTRONICS
+			DA.created_name = name
+			DA.previous_assembly = previous_airlock
+			DA.update_name()
+			DA.update_icon()
 
-		if(!disassembled)
-			if(DA)
+			if(!disassembled && DA)
 				DA.obj_integrity = DA.max_integrity * 0.5
 		if(user)
 			to_chat(user, "<span class='notice'>You remove the airlock electronics.</span>")

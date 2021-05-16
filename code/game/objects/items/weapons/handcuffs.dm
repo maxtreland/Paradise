@@ -33,7 +33,7 @@
 		to_chat(user, "<span class='warning'>Uh... how do those things work?!</span>")
 		apply_cuffs(user, user)
 		return
-
+	monkey_retaliation(C, user)
 	cuff(C, user)
 
 /obj/item/restraints/handcuffs/proc/cuff(mob/living/carbon/C, mob/user, remove_src = TRUE)
@@ -92,7 +92,7 @@
 	icon_state = "cuff_white"
 	origin_tech = "engineering=2"
 	materials = list(MAT_METAL=150, MAT_GLASS=75)
-	breakouttime = 300 //Deciseconds = 30s
+	breakouttime = 200 //Deciseconds = 20s
 	cuffsound = 'sound/weapons/cablecuff.ogg'
 
 /obj/item/restraints/handcuffs/cable/red
@@ -180,7 +180,7 @@
 	name = "zipties"
 	desc = "Plastic, disposable zipties that can be used to restrain temporarily but are destroyed after use."
 	icon_state = "cuff_white"
-	breakouttime = 450 //Deciseconds = 45s
+	breakouttime = 350 //Deciseconds = 35s
 	materials = list()
 	trashtype = /obj/item/restraints/handcuffs/cable/zipties/used
 
