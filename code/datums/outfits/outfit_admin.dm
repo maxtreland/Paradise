@@ -654,7 +654,8 @@
 	shoes = /obj/item/clothing/shoes/combat
 	l_ear = /obj/item/radio/headset/ert
 	id = /obj/item/card/id
-	l_hand = /obj/item/gun/projectile/automatic/shotgun/bulldog
+	l_hand = /obj/item/gun/projectile/automatic/fullauto/ar
+	r_hand = /obj/item/gun/projectile/automatic/shotgun/bulldog
 	suit_store = /obj/item/gun/projectile/automatic/pistol/m1911
 	r_pocket = /obj/item/flashlight/seclite
 	pda = /obj/item/pda

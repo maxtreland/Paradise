@@ -134,9 +134,6 @@ ALLOW_ADMIN_OOCCOLOR
 ## If metadata is supported
 ALLOW_METADATA
 
-## The time it takes for a round to start in seconds
-PREGAME_TIMESTART 240
-
 ## allow players to initiate a restart vote
 #ALLOW_VOTE_RESTART
 
@@ -163,6 +160,14 @@ DEFAULT_NO_VOTE
 
 ## allow AI job
 ALLOW_AI
+
+## Secborg ###
+## Uncomment to prevent the security cyborg module from being chosen
+#DISABLE_SECBORG
+
+## Peacekeeper Borg ###
+## Uncomment to prevent the peacekeeper cyborg module from being chosen
+#DISABLE_PEACEBORG
 
 ## Allow ghosts to see antagonist through AntagHUD
 ALLOW_ANTAG_HUD
@@ -230,10 +235,13 @@ WIKIURL https://www.paradisestation.org/wiki
 RULESURL https://www.paradisestation.org/rules
 
 ## Github address
-GITHUBURL https://github.com/ParadiseSS13/Paradise
+GITHUBURL https://github.com/Helixis/Paradise
 
 ## Discord address
 #DISCORDURL http://example.org
+
+## Bot ip address
+# RYZORBOT http://ryzorbot.herokuapp.com
 
 ## Discord address (forum-based invite)
 DISCORDFORUMURL https://www.paradisestation.org/forum/discord/invite/general/
@@ -444,6 +452,10 @@ BYOND_ACCOUNT_AGE_THRESHOLD 3
 ## Role ID to be pinged with administrative events. If unset, all pings to this role will be disabled
 ## IF YOU ARE DISABLING THIS COMMENT IT OUT ENTIRELY, DONT LEAVE IT BLANK
 #DISCORD_WEBHOOKS_ADMIN_ROLE_ID 111111111111
+
+## ID del rol que el webhook menciona cuando termina , si no se modifica, la mencion estara desactivada, esta es una variable de hispania
+## IF YOU ARE DISABLING THIS COMMENT IT OUT ENTIRELY, DONT LEAVE IT BLANK
+#DISCORD_WEBHOOKS_NEWROUND_ROLE_ID
 
 ## Webhook URLs for the main discord webhook. Separate multiple URLs with a | (EG: https://url1|https://url2)
 #DISCORD_WEBHOOKS_MAIN_URL

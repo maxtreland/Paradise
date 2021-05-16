@@ -448,6 +448,8 @@
 						else if(ghost)
 							if(!ghost.can_reenter_corpse) // DNR or AntagHUD
 								user.visible_message("<span class='notice'>[defib] buzzes: Resucitation failed: No electrical brain activity detected.</span>")
+								if(custom)
+									playsound(get_turf(src), 'sound/machines/kdefibfail.ogg', 50, 0)
 							else
 								user.visible_message("<span class='notice'>[defib] buzzes: Resuscitation failed: Patient's brain is unresponsive. Further attempts may succeed.</span>")
 								to_chat(ghost, "<span class='ghostalert'>Your heart is being defibrillated. Return to your body if you want to be revived!</span> (Verbs -> Ghost -> Re-enter corpse)")
