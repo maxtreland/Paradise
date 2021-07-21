@@ -11148,12 +11148,6 @@
 	icon_state = "floorgrime"
 	},
 /area/maintenance/fsmaint)
-"avc" = (
-/obj/item/toy/figure/secofficer,
-/turf/simulated/floor/plasteel{
-	icon_state = "floorgrime"
-	},
-/area/maintenance/fsmaint)
 "avd" = (
 /turf/simulated/floor/plasteel{
 	icon_state = "redcorner";
@@ -12071,7 +12065,6 @@
 /area/maintenance/fsmaint)
 "awE" = (
 /obj/structure/table,
-/obj/item/toy/griffin,
 /turf/simulated/floor/plating,
 /area/maintenance/fsmaint)
 "awF" = (
@@ -12920,16 +12913,6 @@
 /turf/simulated/floor/plasteel{
 	icon_state = "floorgrime"
 	},
-/area/maintenance/fsmaint)
-"ayf" = (
-/obj/structure/table,
-/obj/item/toy/figure/hos,
-/turf/simulated/floor/plating,
-/area/maintenance/fsmaint)
-"ayg" = (
-/obj/structure/table,
-/obj/item/toy/owl,
-/turf/simulated/floor/plating,
 /area/maintenance/fsmaint)
 "ayh" = (
 /obj/docking_port/stationary{
@@ -16860,7 +16843,6 @@
 /area/maintenance/auxsolarport)
 "aFU" = (
 /obj/structure/table,
-/obj/item/toy/figure/detective,
 /obj/machinery/light/small{
 	dir = 8
 	},
@@ -48871,7 +48853,6 @@
 /obj/item/reagent_containers/food/drinks/bottle/absinthe/premium,
 /obj/item/lighter/zippo/nt_rep,
 /obj/item/storage/fancy/cigarettes/cigpack_robustgold,
-/obj/item/toy/figure/captain,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/captain/bedroom)
@@ -76330,7 +76311,6 @@
 	},
 /area/engine/mechanic_workshop)
 "dbJ" = (
-/obj/item/pipe_painter,
 /obj/item/clothing/ears/earmuffs{
 	pixel_x = 0;
 	pixel_y = 6
@@ -78283,8 +78263,6 @@
 /obj/item/clothing/gloves/color/black,
 /obj/item/clothing/gloves/color/black,
 /obj/item/clothing/gloves/color/black,
-/obj/item/pipe_painter,
-/obj/item/pipe_painter,
 /obj/machinery/alarm{
 	dir = 1;
 	icon_state = "alarm0";
@@ -86200,7 +86178,6 @@
 /area/hallway/primary/central/south)
 "hsl" = (
 /obj/structure/table,
-/obj/item/pipe_painter,
 /turf/simulated/floor/plasteel{
 	dir = 5;
 	icon_state = "yellow"
@@ -99785,8 +99762,6 @@
 /obj/item/clothing/gloves/color/black,
 /obj/item/clothing/gloves/color/black,
 /obj/item/clothing/gloves/color/black,
-/obj/item/pipe_painter,
-/obj/item/pipe_painter,
 /obj/machinery/alarm{
 	dir = 1;
 	icon_state = "alarm0";
@@ -140879,7 +140854,7 @@ aCh
 ats
 ava
 awE
-ayf
+awE
 azn
 arR
 rpg
@@ -141136,7 +141111,7 @@ arT
 aqc
 aEI
 awH
-ayg
+awE
 awF
 hDV
 nfg
@@ -141648,7 +141623,7 @@ awl
 aqn
 asc
 att
-avc
+ava
 avq
 avq
 avq
