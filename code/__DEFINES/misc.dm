@@ -498,3 +498,7 @@
 
 /// Send to the OOC Discord webhook
 #define DISCORD_WEBHOOK_OOC "OOC"
+// Hallucination severities
+#define HALLUCINATE_MINOR 1
+#define HALLUCINATE_MODERATE 2
+#define HALLUCINATE_MAJOR 3
