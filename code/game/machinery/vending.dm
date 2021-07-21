@@ -101,6 +101,7 @@
 	var/force_no_power_icon_state = FALSE
 
 /obj/machinery/vending/Initialize(mapload)
+	. = ..()
 	//productos hispanos init
 	make_products()
 	//productos hispanos end
